@@ -1,0 +1,18 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background: url('../img/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 224px;
+    margin-inline: auto;
+    width: 1160px;
+}

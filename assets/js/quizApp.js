@@ -21,34 +21,19 @@ function getSubject(e){
 
 function getQuestions(subject){
     if(subject === "html"){
-        return htmlQuestions();
+        return getQuestions(subject);
     }else if(subject === "css"){
-        return cssQuestions();
+        return getQuestions(subject);
     }else if(subject === "js"){
-        return jsQuestions();
+        return getQuestions(subject);
     }else if(subject === "accessibility"){
-        return accessibiltyQuestions();
+        return getQuestions(subject);
     }
 }
 
-function htmlQuestions(){
-    const jsonFilePath = 'assets/json/html.json';
-    return createQuestions(jsonFilePath);
-}
-
-function cssQuestions(){
-    const jsonFilePath = 'assets/json/css.json';
-    return createQuestions(jsonFilePath);
-}
-
-function jsQuestions(){
-    const jsonFilePath = 'assets/json/js.json';
-    return createQuestions(jsonFilePath);
-}
-
-function accessibiltyQuestions(){
-    const jsonFilePath = 'assets/json/accessibility.json';
-    return createQuestions(jsonFilePath);
+function getQuestions(subject){
+    const jsonFilePath = `assets/json/${subject}.json`
+    return createQuestions(jsonFilePath)
 }
 
 
@@ -60,7 +45,13 @@ async function createQuestions(questions){
 
 let currentQuestion = 1;
 
+function getRandomQuestions(allQuestions, numberOfQuestions) {
+    const shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5);
+    return shuffledQuestions.slice(0, numberOfQuestions);
+  }
+
 async function renderQuestions(data){
+    const randomQuestions = getRandomQuestions(data,10);
     document.querySelector('.top-bar-container').innerHTML =
     `
     <div class="subject-heading">
@@ -77,7 +68,7 @@ async function renderQuestions(data){
         <img src="assets/img/moon.svg" alt="">
     </div>
     `
-    for (const question of data.slice(currentQuestion-1,currentQuestion)) {
+    for (const question of randomQuestions.slice(currentQuestion-1,currentQuestion)) {
         document.querySelector('.container-leftside').style.flexDirection = "row";
         containerRightSide.innerHTML = "";
         containerLeftSide.innerHTML = "";

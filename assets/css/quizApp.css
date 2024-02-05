@@ -26,13 +26,7 @@ body{
     justify-content: space-between;
 }
 
-.small-text{
-    font-weight: 400;
-    font-style: italic;
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--gray-navy);
-}
+
 
 /* Container Left Side */
 .container-leftside{
@@ -81,7 +75,7 @@ body{
 
 /* Dark Mode Toggle */
 
-.toggle-container{
+.top-bar-container{
     width: 1160px;
     margin-inline: auto;
     display: flex;
@@ -89,7 +83,7 @@ body{
     gap: 20px;
     margin-top: 100px;
     margin-bottom: 124px;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .toggle{
@@ -123,4 +117,20 @@ body{
 
 .toggle-input:checked ~ .toggle-fill::after{
     transform: translateX(20px);
+}
+
+/* Question Page Styling */
+.small-text{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--gray-navy);
+}
+
+.question-text{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: var(--dark-navy);
 }

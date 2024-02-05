@@ -1,0 +1,493 @@
+[
+    {
+      "question": "HTML5 ile birlikte gelen yeni form elemanlarından biri nedir?",
+      "answers": {
+        "a": "&lt;form&gt;",
+        "b": "&lt;input type='text'&gt;",
+        "c": "&lt;canvas&gt;",
+        "d": "&lt;datalist&gt;"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "HTML'de bir resim eklemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;img&gt;",
+        "b": "&lt;image&gt;",
+        "c": "&lt;picture&gt;",
+        "d": "&lt;src&gt;"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML sayfasında bir bağlantıyı belirlemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;link&gt;",
+        "b": "&lt;a&gt;",
+        "c": "&lt;href&gt;",
+        "d": "&lt;src&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de içeriği kalın biçimde göstermek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;strong&gt;",
+        "b": "&lt;b&gt;",
+        "c": "&lt;bold&gt;",
+        "d": "&lt;em&gt;"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir liste oluşturmak için kullanılan doğru etiket hangisidir?",
+      "answers": {
+        "a": "&lt;ol&gt;",
+        "b": "&lt;ul&gt;",
+        "c": "&lt;li&gt;",
+        "d": "&lt;list&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML sayfasında bir resmin boyutunu belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "genişlik ve yükseklik",
+        "b": "boyut",
+        "c": "boyutlar",
+        "d": "ölçek"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir tablo oluşturmak için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;table&gt;",
+        "b": "&lt;tr&gt;",
+        "c": "&lt;td&gt;",
+        "d": "&lt;tab&gt;"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir metin parçasını vurgulamak için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;vurgu&gt;",
+        "b": "&lt;em&gt;",
+        "c": "&lt;işaret&gt;",
+        "d": "&lt;strong&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir sayfanın dilini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;karakter seti&gt;",
+        "b": "&lt;meta charset&gt;",
+        "c": "&lt;kodlama&gt;",
+        "d": "&lt;karakter&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir resme alternatif metin eklemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "alt",
+        "b": "src",
+        "c": "title",
+        "d": "href"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML sayfasına meta bilgisi eklemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;meta&gt;",
+        "b": "&lt;head&gt;",
+        "c": "&lt;link&gt;",
+        "d": "&lt;title&gt;"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir resmin bağlantısını belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "src",
+        "b": "bağlantı",
+        "c": "url",
+        "d": "href"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir sayfanın açıklamasını belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;açıklama&gt;",
+        "b": "&lt;description&gt;",
+        "c": "&lt;meta description&gt;",
+        "d": "&lt;meta desc&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML'de bir sayfanın karakter setini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;karakter seti&gt;",
+        "b": "&lt;meta charset&gt;",
+        "c": "&lt;kodlama&gt;",
+        "d": "&lt;karakter&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir link eklemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;link&gt;",
+        "b": "&lt;href&gt;",
+        "c": "&lt;a&gt;",
+        "d": "&lt;b&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML'de bir sayfanın en dışındaki etiket hangisidir?",
+      "answers": {
+        "a": "&lt;body&gt;",
+        "b": "&lt;html&gt;",
+        "c": "&lt;head&gt;",
+        "d": "&lt;title&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir metni italik biçimde göstermek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;i&gt;",
+        "b": "&lt;italic&gt;",
+        "c": "&lt;em&gt;",
+        "d": "&lt;it&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML'de bir sayfanın başlık etiketi hangisidir?",
+      "answers": {
+        "a": "&lt;title&gt;",
+        "b": "&lt;head&gt;",
+        "c": "&lt;meta&gt;",
+        "d": "&lt;h1&gt;"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir metni kalın biçimde göstermek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;bold&gt;",
+        "b": "&lt;b&gt;",
+        "c": "&lt;strong&gt;",
+        "d": "&lt;big&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML sayfasında bir resmin alternatif metnini belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "alt",
+        "b": "src",
+        "c": "title",
+        "d": "href"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir resmin boyutunu belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "boyut",
+        "b": "genişlik ve yükseklik",
+        "c": "boyutlar",
+        "d": "ölçek"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir sayfanın dilini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;karakter seti&gt;",
+        "b": "&lt;meta charset&gt;",
+        "c": "&lt;kodlama&gt;",
+        "d": "&lt;karakter&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de yorum eklemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;comment&gt;",
+        "b": "&lt;!-- --&gt;",
+        "c": "&lt;note&gt;",
+        "d": "&lt;info&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir sayfanın karakter setini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;encoding&gt;",
+        "b": "&lt;meta charset&gt;",
+        "c": "&lt;char&gt;",
+        "d": "&lt;charset&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir resmin bağlantısını belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "src",
+        "b": "link",
+        "c": "url",
+        "d": "href"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir sayfanın açıklamasını belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;desc&gt;",
+        "b": "&lt;description&gt;",
+        "c": "&lt;meta description&gt;",
+        "d": "&lt;meta desc&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML'de bir metin parçasını vurgulamak için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;highlight&gt;",
+        "b": "&lt;em&gt;",
+        "c": "&lt;mark&gt;",
+        "d": "&lt;strong&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML sayfasında bir bağlantıyı belirlemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;link&gt;",
+        "b": "&lt;a&gt;",
+        "c": "&lt;href&gt;",
+        "d": "&lt;src&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML sayfasında bir resme bir başlık eklemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "&lt;title&gt;",
+        "b": "&lt;alt&gt;",
+        "c": "&lt;caption&gt;",
+        "d": "&lt;heading&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML sayfasında bir resmin boyutunu belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "&lt;size&gt;",
+        "b": "&lt;width&gt;",
+        "c": "&lt;height&gt;",
+        "d": "&lt;dimensions&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir sayfanın dilini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;language&gt;",
+        "b": "&lt;lang&gt;",
+        "c": "&lt;locale&gt;",
+        "d": "&lt;html lang&gt;"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "HTML'de bir metni italik biçimde göstermek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;i&gt;",
+        "b": "&lt;italic&gt;",
+        "c": "&lt;em&gt;",
+        "d": "&lt;it&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML'de bir sayfanın başlık etiketi hangisidir?",
+      "answers": {
+        "a": "&lt;title&gt;",
+        "b": "&lt;head&gt;",
+        "c": "&lt;meta&gt;",
+        "d": "&lt;h1&gt;"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir metni kalın biçimde göstermek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;bold&gt;",
+        "b": "&lt;b&gt;",
+        "c": "&lt;strong&gt;",
+        "d": "&lt;big&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML sayfasında bir resmin alternatif metnini belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "alt",
+        "b": "src",
+        "c": "title",
+        "d": "href"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir resmin boyutunu belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "boyut",
+        "b": "genişlik ve yükseklik",
+        "c": "boyutlar",
+        "d": "ölçek"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir sayfanın dilini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;karakter seti&gt;",
+        "b": "&lt;meta charset&gt;",
+        "c": "&lt;kodlama&gt;",
+        "d": "&lt;karakter&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de yorum eklemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;comment&gt;",
+        "b": "&lt;!-- --&gt;",
+        "c": "&lt;note&gt;",
+        "d": "&lt;info&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir sayfanın karakter setini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;encoding&gt;",
+        "b": "&lt;meta charset&gt;",
+        "c": "&lt;char&gt;",
+        "d": "&lt;charset&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir resmin bağlantısını belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "src",
+        "b": "link",
+        "c": "url",
+        "d": "href"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir sayfanın açıklamasını belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;desc&gt;",
+        "b": "&lt;description&gt;",
+        "c": "&lt;meta description&gt;",
+        "d": "&lt;meta desc&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML'de bir metin parçasını vurgulamak için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;highlight&gt;",
+        "b": "&lt;em&gt;",
+        "c": "&lt;mark&gt;",
+        "d": "&lt;strong&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML sayfasında bir bağlantıyı belirlemek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;link&gt;",
+        "b": "&lt;a&gt;",
+        "c": "&lt;href&gt;",
+        "d": "&lt;src&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML sayfasında bir resme bir başlık eklemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "&lt;title&gt;",
+        "b": "&lt;alt&gt;",
+        "c": "&lt;caption&gt;",
+        "d": "&lt;heading&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML sayfasında bir resmin boyutunu belirlemek için hangi özellik kullanılır?",
+      "answers": {
+        "a": "&lt;size&gt;",
+        "b": "&lt;width&gt;",
+        "c": "&lt;height&gt;",
+        "d": "&lt;dimensions&gt;"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "HTML'de bir sayfanın dilini belirlemek için kullanılan etiket hangisidir?",
+      "answers": {
+        "a": "&lt;language&gt;",
+        "b": "&lt;lang&gt;",
+        "c": "&lt;locale&gt;",
+        "d": "&lt;html lang&gt;"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "HTML'de bir metni italik biçimde göstermek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;i&gt;",
+        "b": "&lt;italic&gt;",
+        "c": "&lt;em&gt;",
+        "d": "&lt;it&gt;"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "HTML'de bir sayfanın başlık etiketi hangisidir?",
+      "answers": {
+        "a": "&lt;title&gt;",
+        "b": "&lt;head&gt;",
+        "c": "&lt;meta&gt;",
+        "d": "&lt;h1&gt;"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "HTML'de bir metni kalın biçimde göstermek için hangi etiket kullanılır?",
+      "answers": {
+        "a": "&lt;bold&gt;",
+        "b": "&lt;b&gt;",
+        "c": "&lt;strong&gt;",
+        "d": "&lt;big&gt;"
+      },
+      "correctAnswer": "c"
+    }
+  ]
+  

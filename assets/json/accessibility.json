@@ -1,0 +1,313 @@
+[
+    {
+      "question": "Web sayfalarında erişilebilirlik açısından doğru olan hangisidir?",
+      "answers": {
+        "a": "WAI-ARIA",
+        "b": "HTML5",
+        "c": "CSS3",
+        "d": "JavaScript"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Ekranda gezinme için klavye kısayolları eklemek için kullanılan WAI-ARIA özelliği hangisidir?",
+      "answers": {
+        "a": "role",
+        "b": "aria-label",
+        "c": "tabindex",
+        "d": "keyboard-shortcut"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Web sayfalarında kontrast oranını artırmak için hangi özelliği kullanmak önemlidir?",
+      "answers": {
+        "a": "aria-hidden",
+        "b": "focus-outline",
+        "c": "color-contrast",
+        "d": "alt-text"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfalarında görüntü içeriği için alternatif metin (alt text) eklemek neden önemlidir?",
+      "answers": {
+        "a": "SEO için",
+        "b": "Sayfa hızını artırmak için",
+        "c": "Görme engelli kullanıcılar için",
+        "d": "JavaScript'ı optimize etmek için"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Sayfadaki bir form elemanına etiket eklemek neden önemlidir?",
+      "answers": {
+        "a": "Stil için",
+        "b": "JavaScript'ı düzenlemek için",
+        "c": "Erişilebilirlik için",
+        "d": "Sayfa performansını artırmak için"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Ekrandaki farklı bölümleri tanımlamak ve organizasyonu sağlamak için kullanılan HTML5 özelliği hangisidir?",
+      "answers": {
+        "a": "aria-label",
+        "b": "header",
+        "c": "main",
+        "d": "role"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Klavye ile gezinme sırasında vurgulu öğeyi belirtmek için kullanılan CSS özelliği hangisidir?",
+      "answers": {
+        "a": ":hover",
+        "b": ":active",
+        "c": ":focus",
+        "d": ":visited"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "JavaScript ile bir sayfanın dilini değiştirmek için hangi özelliği kullanmak önemlidir?",
+      "answers": {
+        "a": "aria-hidden",
+        "b": "lang",
+        "c": "translate",
+        "d": "dir"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Web sayfalarında sesli okuma yazılımının daha iyi anlamasını sağlamak için hangi WAI-ARIA özelliği kullanılır?",
+      "answers": {
+        "a": "aria-live",
+        "b": "aria-describedby",
+        "c": "aria-label",
+        "d": "aria-hidden"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Sayfa başlığını belirtmek için hangi HTML etiketi kullanılır?",
+      "answers": {
+        "a": "<title>",
+        "b": "<h1>",
+        "c": "<header>",
+        "d": "<heading>"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Web sayfalarında düzeni belirlemek ve ekran okuyuculara doğru bilgileri sağlamak için kullanılan HTML5 özelliği hangisidir?",
+      "answers": {
+        "a": "aria-expanded",
+        "b": "role",
+        "c": "semantic-elements",
+        "d": "nav"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Sayfa içeriğini anlamak ve düzenlemek için kullanılan HTML etiketi hangisidir?",
+      "answers": {
+        "a": "<structure>",
+        "b": "<div>",
+        "c": "<section>",
+        "d": "<article>"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfasında başlığı belirtmek ve sayfa başlığına vurgu yapmak için hangi etiket kullanılır?",
+      "answers": {
+        "a": "<head>",
+        "b": "<header>",
+        "c": "<title>",
+        "d": "<h1>"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "Sayfanın dilini belirlemek için hangi HTML etiketi kullanılır?",
+      "answers": {
+        "a": "<lang>",
+        "b": "<translate>",
+        "c": "<language>",
+        "d": "<html-lang>"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Erişilebilirlik açısından düzgün bir bağlantı etiketi eklemek için hangi özelliği kullanmak önemlidir?",
+      "answers": {
+        "a": "aria-link",
+        "b": "alt-text",
+        "c": "aria-label",
+        "d": "href"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfasındaki bir bağlantıyı yeni bir pencerede açmak için hangi özelliği kullanmalısınız?",
+      "answers": {
+        "a": "target='_self'",
+        "b": "target='_parent'",
+        "c": "target='_blank'",
+        "d": "target='_top'"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfalarında sesli okuma yazılımına doğru bilgiler sağlamak için hangi WAI-ARIA özelliği kullanılır?",
+      "answers": {
+        "a": "aria-live",
+        "b": "aria-role",
+        "c": "aria-describe",
+        "d": "aria-expose"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Ekrandaki farklı bölümleri tanımlamak ve organizasyonu sağlamak için kullanılan HTML5 özelliği hangisidir?",
+      "answers": {
+        "a": "aria-label",
+        "b": "header",
+        "c": "main",
+        "d": "role"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfasındaki bir resmin alternatif metni neden önemlidir?",
+      "answers": {
+        "a": "SEO için",
+        "b": "Sayfa performansını artırmak için",
+        "c": "Görme engelli kullanıcılar için",
+        "d": "Resmi gizlemek için"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfalarında font boyutunu belirlemek ve okunabilirliği artırmak için hangi CSS özelliği kullanılır?",
+      "answers": {
+        "a": "font-style",
+        "b": "text-transform",
+        "c": "font-size",
+        "d": "line-height"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfalarında düzeni belirlemek ve ekran okuyuculara doğru bilgileri sağlamak için kullanılan HTML5 özelliği hangisidir?",
+      "answers": {
+        "a": "aria-expanded",
+        "b": "role",
+        "c": "semantic-elements",
+        "d": "nav"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfalarında kontrast oranını artırmak için hangi özelliği kullanmak önemlidir?",
+      "answers": {
+        "a": "aria-hidden",
+        "b": "focus-outline",
+        "c": "color-contrast",
+        "d": "alt-text"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfalarında sesli okuma yazılımının daha iyi anlamasını sağlamak için hangi WAI-ARIA özelliği kullanılır?",
+      "answers": {
+        "a": "aria-live",
+        "b": "aria-describedby",
+        "c": "aria-label",
+        "d": "aria-hidden"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Sayfa başlığını belirtmek için hangi HTML etiketi kullanılır?",
+      "answers": {
+        "a": "<title>",
+        "b": "<h1>",
+        "c": "<header>",
+        "d": "<heading>"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Web sayfalarında sesli okuma yazılımına doğru bilgiler sağlamak için hangi WAI-ARIA özelliği kullanılır?",
+      "answers": {
+        "a": "aria-live",
+        "b": "aria-role",
+        "c": "aria-describe",
+        "d": "aria-expose"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Web sayfalarında sesli okuma yazılımının daha iyi anlamasını sağlamak için hangi WAI-ARIA özelliği kullanılır?",
+      "answers": {
+        "a": "aria-live",
+        "b": "aria-describedby",
+        "c": "aria-label",
+        "d": "aria-hidden"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Web sayfalarında kontrast oranını artırmak için hangi özelliği kullanmak önemlidir?",
+      "answers": {
+        "a": "aria-hidden",
+        "b": "focus-outline",
+        "c": "color-contrast",
+        "d": "alt-text"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Ekrandaki farklı bölümleri tanımlamak ve organizasyonu sağlamak için kullanılan HTML5 özelliği hangisidir?",
+      "answers": {
+        "a": "aria-label",
+        "b": "header",
+        "c": "main",
+        "d": "role"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfasında başlığı belirtmek ve sayfa başlığına vurgu yapmak için hangi etiket kullanılır?",
+      "answers": {
+        "a": "<head>",
+        "b": "<header>",
+        "c": "<title>",
+        "d": "<h1>"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "Sayfa içeriğini anlamak ve düzenlemek için kullanılan HTML etiketi hangisidir?",
+      "answers": {
+        "a": "<structure>",
+        "b": "<div>",
+        "c": "<section>",
+        "d": "<article>"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Web sayfalarında düzeni belirlemek ve ekran okuyuculara doğru bilgileri sağlamak için kullanılan HTML5 özelliği hangisidir?",
+      "answers": {
+        "a": "aria-expanded",
+        "b": "role",
+        "c": "semantic-elements",
+        "d": "nav"
+      },
+      "correctAnswer": "c"
+    }
+  ]
+  

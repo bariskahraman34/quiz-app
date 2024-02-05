@@ -1,3 +1,8 @@
+:root{
+    --dark-navy : rgba(49, 62, 81, 1);
+    --gray-navy : rgba(98, 108, 127, 1);
+}
+
 *,*::after,*::before{
     padding: 0;
     margin: 0;
@@ -15,4 +20,30 @@ body{
     margin-top: 224px;
     margin-inline: auto;
     width: 1160px;
+}
+
+.container-leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.container-leftside h1{
+    display: flex;
+    flex-direction: column;
+    line-height: 64px;
+    color: var(--dark-navy);
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.container-leftside h1 span{
+    font-weight: 500;
+}
+
+.container-leftside > span{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--gray-navy);
 }

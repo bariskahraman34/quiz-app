@@ -144,7 +144,14 @@ function checkAnswer(question){
             option.style.pointerEvents = "none";
             if(option.classList.contains('selected')){
                 if(option.id == question.correctAnswer){
+                    option.innerHTML += `<img class="result-icon" src="assets/img/true-icon.svg" alt="">`
+                    option.style.borderColor = "var(--green)";
+                    option.firstElementChild.style.background = "var(--green)";
                     score++;
+                }else{
+                    option.innerHTML += `<img class="result-icon" src="assets/img/false-icon.svg" alt="">`
+                    option.style.borderColor = "var(--red)";
+                    option.firstElementChild.style.background = "var(--red)";
                 }
             }
         }

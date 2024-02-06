@@ -12,60 +12,60 @@
   {
     "question": "Ekran okuyucular için web sayfalarında metin alternatifleri sağlamak için hangi HTML öğesi kullanılır?",
     "answers": {
-      "a": "<alt>",
-      "b": "<text>",
-      "c": "<desc>",
-      "d": "<img>"
+      "a": "&lt;alt&gt;",
+      "b": "&lt;text&gt;",
+      "c": "&lt;desc&gt;",
+      "d": "&lt;img&gt;"
     },
     "correctAnswer": "d"
   },
   {
     "question": "Klavye kullanıcıları için erişilebilirlik sağlamak için hangi HTML öğesi kullanılabilir?",
     "answers": {
-      "a": "<button>",
-      "b": "<div>",
-      "c": "<a>",
-      "d": "<input>"
+      "a": "&lt;button&gt;",
+      "b": "&lt;div&gt;",
+      "c": "&lt;a&gt;",
+      "d": "&lt;input&gt;"
     },
     "correctAnswer": "a"
   },
   {
     "question": "Sayfa başlığını tanımlamak için hangi HTML öğesi kullanılır?",
     "answers": {
-      "a": "<title>",
-      "b": "<h1>",
-      "c": "<header>",
-      "d": "<caption>"
+      "a": "&lt;title&gt;",
+      "b": "&lt;h1&gt;",
+      "c": "&lt;header&gt;",
+      "d": "&lt;caption&gt;"
     },
     "correctAnswer": "a"
   },
   {
     "question": "Formlar için doğru etiketleri kullanarak form elemanlarıyla ilişkilendirme sağlamak için hangi HTML öğesi kullanılır?",
     "answers": {
-      "a": "<label>",
-      "b": "<input>",
-      "c": "<form>",
-      "d": "<button>"
+      "a": "&lt;label&gt;",
+      "b": "&lt;input&gt;",
+      "c": "&lt;form&gt;",
+      "d": "&lt;button&gt;"
     },
     "correctAnswer": "a"
   },
   {
     "question": "Web sayfalarında düzgün bir okuma sırası sağlamak için hangi HTML öğesi kullanılabilir?",
     "answers": {
-      "a": "<order>",
-      "b": "<sequence>",
-      "c": "<nav>",
-      "d": "<tabindex>"
+      "a": "&lt;order&gt;",
+      "b": "&lt;sequence&gt;",
+      "c": "&lt;nav&gt;",
+      "d": "&lt;tabindex&gt;"
     },
     "correctAnswer": "d"
   },
   {
     "question": "Bir sayfanın ana içeriğini tanımlamak için hangi HTML öğesi kullanılır?",
     "answers": {
-      "a": "<main>",
-      "b": "<content>",
-      "c": "<section>",
-      "d": "<body>"
+      "a": "&lt;main&gt;",
+      "b": "&lt;content&gt;",
+      "c": "&lt;section&gt;",
+      "d": "&lt;body&gt;"
     },
     "correctAnswer": "a"
   },
@@ -82,20 +82,20 @@
   {
     "question": "Sayfanın dilini belirtmek için hangi HTML öğesi kullanılır?",
     "answers": {
-      "a": "<lang>",
-      "b": "<language>",
-      "c": "<meta>",
-      "d": "<html>"
+      "a": "&lt;lang&gt;",
+      "b": "&lt;language&gt;",
+      "c": "&lt;meta&gt;",
+      "d": "&lt;html&gt;"
     },
     "correctAnswer": "a"
   },
   {
     "question": "Sayfa içeriğini gruplamak ve tanımlamak için hangi HTML öğesi kullanılır?",
     "answers": {
-      "a": "<group>",
-      "b": "<container>",
-      "c": "<section>",
-      "d": "<wrapper>"
+      "a": "&lt;group&gt;",
+      "b": "&lt;container&gt;",
+      "c": "&lt;section&gt;",
+      "d": "&lt;wrapper&gt;"
     },
     "correctAnswer": "c"
   },
@@ -190,36 +190,6 @@
     "correctAnswer": "a"
   },
   {
-    "question": "Web sayfalarında bir HTML öğesinin tıklanabilir olduğunu belirtmek için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "href"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Web sayfalarında bir HTML öğesinin açıklamasını sağlamak için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "desc"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "question": "Erişilebilirlik açısından, web sayfalarında dikkate alınması gereken bir HTML özelliği nedir?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "href"
-    },
-    "correctAnswer": "a"
-  },
-  {
     "question": "Web sayfalarında bir HTML öğesinin bağlantı olduğunu belirtmek için hangi HTML özelliği kullanılır?",
     "answers": {
       "a": "alt",
@@ -282,20 +252,20 @@
   {
     "question": "Web sayfalarında bir HTML öğesinin içeriğinin dili için hangi HTML özelliği kullanılır?",
     "answers": {
-      "a": "lang",
-      "b": "title",
-      "c": "role",
-      "d": "hreflang"
+      "a": "&lt;lang&gt;",
+      "b": "&lt;title&gt;",
+      "c": "&lt;role&gt;",
+      "d": "&lt;hreflang&gt;"
     },
     "correctAnswer": "a"
   },
   {
     "question": "Web sayfalarında bir HTML öğesinin erişilebilirliğini sağlamak için hangi HTML özelliği kullanılır?",
     "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "aria"
+      "a": "&lt;alt&gt;",
+      "b": "&lt;title&gt;",
+      "c": "&lt;role&gt;",
+      "d": "&lt;aria&gt;"
     },
     "correctAnswer": "d"
   }

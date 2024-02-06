@@ -1,293 +1,302 @@
 [
-    {
-      "question": "JavaScript'te bir değişken tanımlamak için kullanılan anahtar kelime hangisi değildir?",
-      "answers": {
-        "a": "var",
-        "b": "let",
-        "c": "const",
-        "d": "variable"
-      },
-      "correctAnswer": "d"
+  {
+    "question": "JavaScript'te bir değişken tanımlamak için hangi anahtar kelime kullanılmaz?",
+    "answers": {
+      "a": "var",
+      "b": "let",
+      "c": "const",
+      "d": "variable"
     },
-    {
-      "question": "JavaScript'te bir fonksiyon tanımlamak için kullanılan anahtar kelime hangisidir?",
-      "answers": {
-        "a": "function",
-        "b": "def",
-        "c": "funct",
-        "d": "method"
-      },
-      "correctAnswer": "a"
+    "correctAnswer": "d"
+  },
+  {
+    "question": "JavaScript'te hangi döngü sonsuz döngüye neden olabilir?",
+    "answers": {
+      "a": "for",
+      "b": "while",
+      "c": "do...while",
+      "d": "hepsi de olabilir"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) oluşturmak için kullanılan doğru sözdizimi hangisidir?",
-      "answers": {
-        "a": "let arr = {}",
-        "b": "const arr = () => []",
-        "c": "let arr = []",
-        "d": "array arr = new Array()"
-      },
-      "correctAnswer": "c"
+    "correctAnswer": "d"
+  },
+  {
+    "question": "JavaScript'te bir dizinin belirli bir öğesine erişmek için hangi notasyon kullanılır?",
+    "answers": {
+      "a": "dizi[indeks]",
+      "b": "dizi(indeks)",
+      "c": "dizi{indeks}",
+      "d": "dizi.indeks"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesini ters çevirmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "reverse()",
-        "b": "split('').reverse().join('')",
-        "c": "reverseString(str)",
-        "d": "invert()"
-      },
-      "correctAnswer": "b"
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir fonksiyonu çağırmak için hangi notasyon kullanılır?",
+    "answers": {
+      "a": "fonksiyonAdı()",
+      "b": "fonksiyonAdı{}",
+      "c": "fonksiyonAdı[]",
+      "d": "fonksiyonAdı="
     },
-    {
-      "question": "JavaScript'te bir dize (string) içinde belirli bir karakterin konumunu bulmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "findCharacterIndex()",
-        "b": "indexOf()",
-        "c": "searchCharacter(str)",
-        "d": "findIndexOf(str)"
-      },
-      "correctAnswer": "b"
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te, bir fonksiyondan değer döndürmek için kullanılan anahtar kelime hangisidir?",
+    "answers": {
+      "a": "return",
+      "b": "send",
+      "c": "back",
+      "d": "yield"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesini küçük harfe dönüştürmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "toLower()",
-        "b": "lowercase()",
-        "c": "toLowerCase()",
-        "d": "convertToLower()"
-      },
-      "correctAnswer": "c"
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir dizinin uzunluğunu bulmak için hangi özellik kullanılır?",
+    "answers": {
+      "a": "size",
+      "b": "length",
+      "c": "count",
+      "d": "uzunluk"
     },
-    {
-      "question": "JavaScript'te bir sayıyı tam sayıya dönüştürmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "toInteger()",
-        "b": "parseInt()",
-        "c": "convertToInteger()",
-        "d": "intify()"
-      },
-      "correctAnswer": "b"
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te, iki değerin eşit olup olmadığını ve aynı türde olup olmadığını kontrol etmek için kullanılan operatör hangisidir?",
+    "answers": {
+      "a": "=",
+      "b": "==",
+      "c": "===",
+      "d": "<>"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içinde belirli bir elemanın varlığını kontrol etmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "checkElement()",
-        "b": "contains()",
-        "c": "includes()",
-        "d": "exists()"
-      },
-      "correctAnswer": "c"
+    "correctAnswer": "c"
+  },
+  {
+    "question": "JavaScript'te bir değeri integer'a dönüştürmek için hangi fonksiyon kullanılır?",
+    "answers": {
+      "a": "parseInt()",
+      "b": "parseInteger()",
+      "c": "toInteger()",
+      "d": "toNumber()"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesini belirli bir karaktere göre bölmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "splitString()",
-        "b": "separate()",
-        "c": "split()",
-        "d": "divideString()"
-      },
-      "correctAnswer": "c"
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir string'in uzunluğunu bulmak için hangi özellik kullanılır?",
+    "answers": {
+      "a": "count",
+      "b": "size",
+      "c": "length",
+      "d": "uzunluk"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesinin uzunluğunu bulmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "size()",
-        "b": "length()",
-        "c": "length",
-        "d": "sizeOf()"
-      },
-      "correctAnswer": "c"
+    "correctAnswer": "c"
+  },
+  {
+    "question": "JavaScript'te iki sayının farkını bulmak için hangi işlem kullanılır?",
+    "answers": {
+      "a": "subtract()",
+      "b": "minus()",
+      "c": "diff()",
+      "d": "-"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içindeki en büyük sayıyı bulmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "max()",
-        "b": "findMaxNumber(arr)",
-        "c": "Math.max(...arr)",
-        "d": "largestNumber()"
-      },
-      "correctAnswer": "c"
+    "correctAnswer": "d"
+  },
+  {
+    "question": "JavaScript'te iki string'in birleştirilmesi için hangi operatör kullanılır?",
+    "answers": {
+      "a": "+",
+      "b": "&",
+      "c": "|",
+      "d": "~"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesinin belirli bir indeksteki karakterini değiştirmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "changeCharAt()",
-        "b": "replaceChar()",
-        "c": "charAt(index, newChar)",
-        "d": "setCharAt(index, newChar)"
-      },
-      "correctAnswer": "d"
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir fonksiyonu belli bir süre sonra tekrar tekrar çalıştırmak için hangi fonksiyon kullanılır?",
+    "answers": {
+      "a": "repeat()",
+      "b": "setInterval()",
+      "c": "setTimeout()",
+      "d": "loopAfterTime()"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içindeki tüm elemanları birleştirmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "concat()",
-        "b": "merge()",
-        "c": "combineArray()",
-        "d": "join()"
-      },
-      "correctAnswer": "a"
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te bir nesne oluşturmak için hangi notasyon kullanılır?",
+    "answers": {
+      "a": "{}",
+      "b": "()",
+      "c": "[]",
+      "d": "//"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesinde belirli bir alt dizeyi bulmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "findSubstring()",
-        "b": "substring()",
-        "c": "sub()",
-        "d": "getSubstring()"
-      },
-      "correctAnswer": "b"
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir dizenin belirli bir kısmını seçmek için hangi metot kullanılır?",
+    "answers": {
+      "a": "substring()",
+      "b": "slice()",
+      "c": "select()",
+      "d": "extract()"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içinde belirli bir elemanın indeksini bulmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "indexOf()",
-        "b": "findIndex()",
-        "c": "searchIndex()",
-        "d": "positionOf()"
-      },
-      "correctAnswer": "a"
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te bir dizinin sonuna bir öğe eklemek için hangi metot kullanılır?",
+    "answers": {
+      "a": "push()",
+      "b": "append()",
+      "c": "addToEnd()",
+      "d": "insert()"
     },
-    {
-      "question": "JavaScript'te bir sayının karesini almak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "square()",
-        "b": "powerOfTwo()",
-        "c": "Math.square()",
-        "d": "Math.pow()"
-      },
-      "correctAnswer": "d"
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te, bir dizeyi büyük harfe dönüştürmek için kullanılan yöntem hangisidir?",
+    "answers": {
+      "a": "uppercase()",
+      "b": "toUpperCase()",
+      "c": "bigCase()",
+      "d": "capslock()"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesini belirli bir karaktere göre düzenlemek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "sortByChar()",
-        "b": "sort()",
-        "c": "orderBy()",
-        "d": "sortBy()"
-      },
-      "correctAnswer": "b"
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te bir dizenin belirli bir karakteri başka bir karakterle değiştirmek için hangi metot kullanılır?",
+    "answers": {
+      "a": "replace()",
+      "b": "substitute()",
+      "c": "swap()",
+      "d": "modify()"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içinde belirli bir elemanı kaldırmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "removeElement()",
-        "b": "delete()",
-        "c": "remove()",
-        "d": "splice()",
-        "correctAnswer": "d"
-      }
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir dizenin tüm karakterlerini küçük harfe dönüştürmek için hangi metot kullanılır?",
+    "answers": {
+      "a": "toLower()",
+      "b": "lowerCase()",
+      "c": "toLowerCase()",
+      "d": "smallLetters()"
     },
-    {
-      "question": "JavaScript'te bir sayıyı belirli bir basamak sayısına yuvarlamak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "round()",
-        "b": "Math.round()",
-        "c": "num.round()",
-        "d": "Math.floor()",
-        "correctAnswer": "b"
-      }
+    "correctAnswer": "c"
+  },
+  {
+    "question": "JavaScript'te bir diziyi tersine çevirmek için hangi metot kullanılır?",
+    "answers": {
+      "a": "reverse()",
+      "b": "flip()",
+      "c": "invert()",
+      "d": "turnOver()"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesinde belirli bir karakteri değiştirmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "replace()",
-        "b": "replaceChar()",
-        "c": "changeCharacter()",
-        "d": "modify()",
-        "correctAnswer": "a"
-      }
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir dizeyi parçalara ayırmak için hangi metot kullanılır?",
+    "answers": {
+      "a": "parse()",
+      "b": "split()",
+      "c": "slice()",
+      "d": "cut()"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesini belirli bir karaktere göre ayırmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "splitString()",
-        "b": "divide()",
-        "c": "split()",
-        "d": "separateString()",
-        "correctAnswer": "c"
-      }
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te bir dizinin belirli bir aralığını kopyalamak için hangi metot kullanılır?",
+    "answers": {
+      "a": "copy()",
+      "b": "clone()",
+      "c": "slice()",
+      "d": "duplicate()"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesinde belirli bir karakterin konumunu bulmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "findCharacterIndex()",
-        "b": "indexOf()",
-        "c": "searchCharacter(str)",
-        "d": "findIndexOf(str)",
-        "correctAnswer": "b"
-      }
+    "correctAnswer": "c"
+  },
+  {
+    "question": "JavaScript'te bir nesnenin belirli bir özelliğini silmek için hangi anahtar kelime kullanılır?",
+    "answers": {
+      "a": "remove",
+      "b": "delete",
+      "c": "erase",
+      "d": "discard"
     },
-    {
-      "question": "JavaScript'te bir dize (string) ifadesini belirli bir karaktere göre bölmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "splitString()",
-        "b": "separate()",
-        "c": "split()",
-        "d": "divideString()",
-        "correctAnswer": "c"
-      }
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te bir dizinin belirli bir öğesini silmek için hangi metot kullanılır?",
+    "answers": {
+      "a": "removeItem()",
+      "b": "deleteItem()",
+      "c": "eraseItem()",
+      "d": "splice()"
     },
-    {
-      "question": "JavaScript'te bir sayının karekökünü almak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "squareRoot()",
-        "b": "Math.sqrt()",
-        "c": "num.sqrt()",
-        "d": "Math.squareRoot()",
-        "correctAnswer": "b"
-      }
+    "correctAnswer": "d"
+  },
+  {
+    "question": "JavaScript'te bir dizinin belirli bir öğesini başka bir öğeyle değiştirmek için hangi metot kullanılır?",
+    "answers": {
+      "a": "replace()",
+      "b": "substitute()",
+      "c": "swap()",
+      "d": "modify()"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içinde belirli bir elemanın varlığını kontrol etmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "checkElement()",
-        "b": "contains()",
-        "c": "includes()",
-        "d": "exists()",
-        "correctAnswer": "c"
-      }
+    "correctAnswer": "d"
+  },
+  {
+    "question": "JavaScript'te, bir fonksiyonu belli bir süre sonra bir kez çalıştırmak için kullanılan fonksiyon hangisidir?",
+    "answers": {
+      "a": "repeat()",
+      "b": "setInterval()",
+      "c": "setTimeout()",
+      "d": "loopAfterTime()"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içindeki tüm elemanları birleştirmek için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "concat()",
-        "b": "merge()",
-        "c": "combineArray()",
-        "d": "join()",
-        "correctAnswer": "a"
-      }
+    "correctAnswer": "c"
+  },
+  {
+    "question": "JavaScript'te bir değeri string'e dönüştürmek için hangi fonksiyon kullanılır?",
+    "answers": {
+      "a": "toString()",
+      "b": "toStr()",
+      "c": "stringify()",
+      "d": "str()"
     },
-    {
-      "question": "JavaScript'te bir sayının mutlak değerini almak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "abs()",
-        "b": "Math.abs()",
-        "c": "num.absolute()",
-        "d": "Math.absolute()",
-        "correctAnswer": "b"
-      }
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te, bir nesnenin özelliklerini ve değerlerini döndüren yöntem hangisidir?",
+    "answers": {
+      "a": "properties()",
+      "b": "keys()",
+      "c": "values()",
+      "d": "items()"
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içindeki en küçük sayıyı bulmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "min()",
-        "b": "findMinNumber(arr)",
-        "c": "Math.min(...arr)",
-        "d": "smallestNumber()",
-        "correctAnswer": "c"
-      }
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te iki string'i karşılaştırmak için hangi operatör kullanılır?",
+    "answers": {
+      "a": "==",
+      "b": "===",
+      "c": "!=",
+      "d": "!=="
     },
-    {
-      "question": "JavaScript'te bir dizi (array) içinde belirli bir elemanı kaldırmak için kullanılan yöntem hangisidir?",
-      "answers": {
-        "a": "removeElement()",
-        "b": "delete()",
-        "c": "remove()",
-        "d": "splice()",
-        "correctAnswer": "d"
-      }
-    }
-  ]
-  
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te bir dizenin içinde belirli bir karakterin hangi sıradan başladığını bulmak için hangi metot kullanılır?",
+    "answers": {
+      "a": "index()",
+      "b": "indexOf()",
+      "c": "positionOf()",
+      "d": "findIndex()"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'e nasıl yorum ekleyebilirsiniz?",
+    "answers": {
+      "a": "//Bu bir yorumdur.",
+      "b": "<!-- Bu bir yorumdur --!>",
+      "c": "'Bu bir yorumdur'",
+      "d": "/-Bu bir yorumdur-/"
+    },
+    "correctAnswer": "a"
+  }
+]

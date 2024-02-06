@@ -264,3 +264,20 @@ body{
 .result-box .small-text{
     font-style: normal;
 }
+
+/* Hover Effects */
+.option{
+    transition: all .2s ease;
+}
+.option-btn:hover .option{
+    background-color: rgba(246, 231, 255, 1);
+    color: var(--purple);
+}
+
+.submit-btn{
+    transition: all .2s ease;
+}
+
+.submit-btn:hover{
+    background-color: rgba(167, 41, 245, .5);
+}

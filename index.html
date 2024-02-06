@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/quizApp.css">
+    <script src="assets/js/quizApp.js" defer></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="top-bar-container">
+        <div class="subject-heading"></div>
+        <div class="toggle-container">
+            <img src="assets/img/sun.svg" alt="">
+            <label class="toggle" for="dark-mode">
+                <input class="toggle-input" type="checkbox" id="dark-mode">
+                <div class="toggle-fill">
+                </div>
+            </label>
+            <img src="assets/img/moon.svg" alt="">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-leftside">
+            <h1><span>Frontend Quiz'e</span>Hoşgeldiniz!</h1>
+            <span class="small-text">Başlamak için bir konu seçiniz.</span>
+        </div>
+        <div class="container-rightside">
+            <ul class="subject-list">
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="html">
+                        <img src="assets/img/html.svg" alt="">
+                        <span>HTML</span>
+                    </a>
+                </li>
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="css">
+                        <img src="assets/img/css.svg" alt="">
+                        <span>
+                            CSS
+                        </span>
+                    </a>
+                </li>
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="js">
+                        <img src="assets/img/js.svg" alt="">
+                        <span>
+                            Javascript
+                        </span>
+                    </a>
+                </li>
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="accessibility">
+                        <img src="assets/img/accessibility.svg" alt="">
+                        <span>Erişilebilirlik</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -217,8 +217,6 @@ function restartQuiz(){
     currentQuestion = 1;
     score = 0;
     randomQuestionsArray = [];
-    subjectName;
-    subjectImg;
     saveBtnClicked = false;
     return getQuestions(subject)
 }

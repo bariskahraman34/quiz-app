@@ -9,6 +9,7 @@ let score = 0;
 let randomQuestionsArray = [];
 let subjectName;
 let subjectImg;
+let saveBtnClicked = false;
 
 for (const link of subjectLinks) {
     link.addEventListener('click',getSubject);
@@ -134,7 +135,7 @@ function checkAnswer(question){
     const saveBtn = document.querySelector('.save-btn');
     const optionBtns = document.querySelectorAll('.option-btn');
     for (const option of optionBtns) {
-        option.addEventListener('click',function(e){
+        option.addEventListener('click', function(e) {
             e.preventDefault();
             for (const option of optionBtns) {
                 option.classList.remove('selected');
@@ -142,38 +143,40 @@ function checkAnswer(question){
             this.classList.add('selected');
         })
     }
-    saveBtn.addEventListener('click',function(){
-        for (const option of optionBtns) {
-            option.style.pointerEvents = "none";
-            if(option.classList.contains('selected')){
-                if(option.id == question.correctAnswer){
-                    option.innerHTML += `<img class="result-icon" src="assets/img/true-icon.svg" alt="">`
-                    option.style.borderColor = "var(--green)";
-                    option.firstElementChild.style.background = "var(--green)";
-                    score++;
-                }else{
-                    option.innerHTML += `<img class="result-icon" src="assets/img/false-icon.svg" alt="">`
-                    option.style.borderColor = "var(--red)";
-                    option.firstElementChild.style.background = "var(--red)";
-                    for (const option of optionBtns) {
-                        if(option.id == question.correctAnswer){
-                            option.innerHTML += `<img class="result-icon" src="assets/img/true-icon.svg" alt="">`
+    saveBtn.addEventListener('click', function(){
+        if (!saveBtnClicked){
+            for(const option of optionBtns){
+                option.style.pointerEvents = "none";
+                if(option.classList.contains('selected')){
+                    if(option.id == question.correctAnswer){
+                        option.innerHTML += `<img class="result-icon" src="assets/img/true-icon.svg" alt="">`
+                        option.style.borderColor = "var(--green)";
+                        option.firstElementChild.style.background = "var(--green)";
+                        score++;
+                    }else{
+                        option.innerHTML += `<img class="result-icon" src="assets/img/false-icon.svg" alt="">`
+                        option.style.borderColor = "var(--red)";
+                        option.firstElementChild.style.background = "var(--red)";
+                        for (const option of optionBtns){
+                            if (option.id == question.correctAnswer){
+                                option.innerHTML += `<img class="result-icon" src="assets/img/true-icon.svg" alt="">`
+                            }
                         }
                     }
-                }
-            }else{
-                if(document.querySelectorAll('.option-btn.selected').length != 1){
-                    document.querySelector('.no-option-selected').style.display = "flex";
-                    return
+                }else{
+                    if (document.querySelectorAll('.option-btn.selected').length != 1){
+                        document.querySelector('.no-option-selected').style.display = "flex";
+                        return;
+                    }
                 }
             }
+            this.textContent = "Sonraki Soru";
+            this.classList.add('next');
+            this.classList.remove('save-btn');
+            saveBtnClicked = true;
+            return goNextQuestion();
         }
-        this.textContent = "Sonraki Soru";
-        this.classList.add('next');
-        this.classList.remove('save-btn');
-        return goNextQuestion();
-
-    })
+    });
 }
 
 function goNextQuestion(){
@@ -184,6 +187,7 @@ function goNextQuestion(){
             this.addEventListener('click',finishQuiz)
         }else{
             currentQuestion++;
+            saveBtnClicked = false;
             return renderQuestions();
         }
     })
@@ -205,8 +209,8 @@ function finishQuiz(){
             <h2>${subjectName}</h2>
         </div>
         <span class="score-result">${score}</span>
-        <span class="small-text">${currentQuestion}.Soru /10 Soru</span>
+        <span class="small-text">${currentQuestion} üzerinden</span>
     </div>
-    <button id="replay" class="submit-btn">Play Again</div>
+    <button id="replay" class="submit-btn">Yeniden Deneyin</div>
     `
 }

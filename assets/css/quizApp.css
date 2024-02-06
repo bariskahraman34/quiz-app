@@ -29,6 +29,7 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 131px;
+    margin-bottom: 200px;
 }
 
 
@@ -302,10 +303,6 @@ body.dark-mode{
     color: var(--pure-white);
 }
 
-.dark-mode .question-text{
-    color: var(--pure-white);
-}
-
 .dark-mode .progress-bar{
     background-color: rgba(59, 77, 102, 1);
 }
@@ -318,15 +315,14 @@ body.dark-mode{
     background-color: #d394fa;
 }
 
-.dark-mode .selected .option{
-    color: var(--pure-white);
-}
-
+.dark-mode .selected .option,
+.dark-mode .question-text,
 .dark-mode .quiz-result-left-container span,
 .dark-mode .score-result,
 .dark-mode .subject-heading{
     color: var(--pure-white);
 }
+
 .dark-mode .result-box{
     background-color: rgba(59, 77, 102, 1);
 }

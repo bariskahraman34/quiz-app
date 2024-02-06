@@ -4,6 +4,8 @@
     --pure-white : rgba(255, 255, 255, 1);
     --purple: rgba(167, 41, 245, 1);
     --light-gray: rgba(244, 246, 250, 1);
+    --green: rgba(38, 215, 130, 1);
+    --red: rgba(238, 84, 84, 1);
 }
 
 *,*::after,*::before{
@@ -73,6 +75,7 @@ body{
     background-color: var(--pure-white);
     padding: 20px;
     border-radius: 24px;
+    border: 3px solid transparent;
 }
 
 /* Dark Mode Toggle */
@@ -205,4 +208,9 @@ body{
         background-color: var(--purple);
         color:#fff;
     }
+}
+
+/* Icons */
+.result-icon{
+    margin-left: auto;
 }

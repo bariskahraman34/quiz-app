@@ -214,3 +214,13 @@ body{
 .result-icon{
     margin-left: auto;
 }
+
+.no-option-selected{
+    margin-top: 30px;
+    color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 36px;
+}

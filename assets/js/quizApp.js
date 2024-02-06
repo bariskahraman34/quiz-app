@@ -122,6 +122,10 @@ async function renderQuestions(){
             </li>
         </ul>
         <button type="submit" class="submit-btn">Cevabı Kaydet</button>
+        <div class="no-option-selected" style="display:none;">
+            <img src="assets/img/false-icon.svg">
+            <span>Lütfen bir cevap seçiniz.<span>
+        </div>
         `;
         checkAnswer(question);
     }
@@ -152,6 +156,11 @@ function checkAnswer(question){
                     option.innerHTML += `<img class="result-icon" src="assets/img/false-icon.svg" alt="">`
                     option.style.borderColor = "var(--red)";
                     option.firstElementChild.style.background = "var(--red)";
+                }
+            }else{
+                if(document.querySelectorAll('.option-btn.selected').length != 1){
+                    document.querySelector('.no-option-selected').style.display = "flex";
+                    return
                 }
             }
         }

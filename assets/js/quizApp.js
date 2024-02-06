@@ -4,6 +4,9 @@ const toggleContainer = document.querySelector('.toggle-container');
 const containerLeftSide = document.querySelector('.container-leftside');
 const containerRightSide = document.querySelector('.container-rightside');
 
+let currentQuestion = 1;
+let score = 0;
+
 for (const link of subjectLinks) {
     link.addEventListener('click',getSubject);
 }
@@ -40,10 +43,10 @@ function getQuestions(subject){
 async function createQuestions(questions){
     const response = await fetch(questions);
     const data = await response.json();
-    return renderQuestions(data);
+    const randomQuestions = getRandomQuestions(data,10);
+    return renderQuestions(randomQuestions);
 }
 
-let currentQuestion = 1;
 
 function getRandomQuestions(allQuestions, numberOfQuestions) {
     const shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5);
@@ -51,7 +54,7 @@ function getRandomQuestions(allQuestions, numberOfQuestions) {
   }
 
 async function renderQuestions(data){
-    const randomQuestions = getRandomQuestions(data,10);
+    console.log(data)
     document.querySelector('.top-bar-container').innerHTML =
     `
     <div class="subject-heading">
@@ -68,7 +71,7 @@ async function renderQuestions(data){
         <img src="assets/img/moon.svg" alt="">
     </div>
     `
-    for (const question of randomQuestions.slice(currentQuestion-1,currentQuestion)) {
+    for (const question of data.slice(currentQuestion-1,currentQuestion)) {
         document.querySelector('.container-leftside').style.flexDirection = "row";
         containerRightSide.innerHTML = "";
         containerLeftSide.innerHTML = "";
@@ -88,25 +91,25 @@ async function renderQuestions(data){
         `
         <ul class="subject-list">
             <li class="subject-element">
-                <a href="#" class="subject-link">
+                <a href="#" class="subject-link option-btn" id="a">
                     <span class="option">A</span>
                     <span class="option-text">${question.answers.a}</span>
                 </a>
             </li>
             <li class="subject-element">
-                <a href="#" class="subject-link">
+                <a href="#" class="subject-link option-btn" id="b">
                     <span class="option">B</span>
                     <span class="option-text">${question.answers.b}</span>
                 </a>
             </li>
             <li class="subject-element">
-                <a href="#" class="subject-link">
+                <a href="#" class="subject-link option-btn" id="c">
                     <span class="option">C</span>
                     <span class="option-text">${question.answers.c}</span>
                 </a>
             </li>
             <li class="subject-element">
-                <a href="#" class="subject-link">
+                <a href="#" class="subject-link option-btn" id="d">
                     <span class="option">D</span>
                     <span class="option-text">${question.answers.d}</span>
                 </a>
@@ -114,12 +117,37 @@ async function renderQuestions(data){
         </ul>
         <button type="submit" class="submit-btn">Cevabı Kaydet</button>
         `;
-
-        const links = document.querySelectorAll('.subject-link');
-        for (const subject of links) {
-            subject.addEventListener('click',function(e){
-                e.preventDefault();
-            })
-        }
+        checkAnswer(question);
     }
+}
+
+function checkAnswer(question){
+    const submitBtn = document.querySelector('.submit-btn');
+    const optionBtns = document.querySelectorAll('.option-btn');
+    for (const option of optionBtns) {
+        option.addEventListener('click',function(e){
+            e.preventDefault();
+            for (const option of optionBtns) {
+                option.classList.remove('selected');
+            }
+            this.classList.add('selected');
+        })
+    }
+    submitBtn.addEventListener('click',function(){
+        for (const option of optionBtns) {
+            option.style.pointerEvents = "none";
+            if(option.classList.contains('selected')){
+                if(option.id == question.correctAnswer){
+                    score++;
+                }
+            }
+        }
+        submitBtn.textContent = "Sonraki Soru";
+        submitBtn.classList.remove('submit-btn');
+        if(submitBtn.classList.contains('next')){
+            currentQuestion++;
+        }
+        submitBtn.classList.add('next');
+    })
+
 }

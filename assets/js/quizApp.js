@@ -61,22 +61,16 @@ function getRandomQuestions(allQuestions, numberOfQuestions) {
   }
 
 async function renderQuestions(){
-    document.querySelector('.top-bar-container').innerHTML =
+    document.querySelector('.remove-this-element').remove();
+    const subjectHeading =
     `
     <div class="subject-heading">
         <img src="${subjectImg}"/> 
         <h2>${subjectName}</h2>
     </div>
-    <div class="toggle-container">
-        <img src="assets/img/sun.svg" alt="">
-        <label class="toggle" for="dark-mode">
-            <input class="toggle-input" type="checkbox" id="dark-mode">
-            <div class="toggle-fill">
-            </div>
-        </label>
-        <img src="assets/img/moon.svg" alt="">
-    </div>
     `
+    document.querySelector('.toggle-container').insertAdjacentHTML("beforebegin",subjectHeading);
+
     for (const question of randomQuestionsArray[0].slice(currentQuestion - 1, currentQuestion)) {
         document.querySelector('.container-leftside').style.flexDirection = "row";
         containerRightSide.innerHTML = "";

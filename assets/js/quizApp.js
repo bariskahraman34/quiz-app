@@ -156,6 +156,11 @@ function checkAnswer(question){
                     option.innerHTML += `<img class="result-icon" src="assets/img/false-icon.svg" alt="">`
                     option.style.borderColor = "var(--red)";
                     option.firstElementChild.style.background = "var(--red)";
+                    for (const option of optionBtns) {
+                        if(option.id == question.correctAnswer){
+                            option.innerHTML += `<img class="result-icon" src="assets/img/true-icon.svg" alt="">`
+                        }
+                    }
                 }
             }else{
                 if(document.querySelectorAll('.option-btn.selected').length != 1){

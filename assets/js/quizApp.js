@@ -61,16 +61,17 @@ function getRandomQuestions(allQuestions, numberOfQuestions) {
   }
 
 async function renderQuestions(){
-    document.querySelector('.remove-this-element').remove();
-    const subjectHeading =
-    `
-    <div class="subject-heading">
-        <img src="${subjectImg}"/> 
-        <h2>${subjectName}</h2>
-    </div>
-    `
-    document.querySelector('.toggle-container').insertAdjacentHTML("beforebegin",subjectHeading);
-
+    if(document.querySelector('.remove-this-element')){
+        document.querySelector('.remove-this-element').remove();
+        const subjectHeading =
+        `
+        <div class="subject-heading">
+            <img src="${subjectImg}"/> 
+            <h2>${subjectName}</h2>
+        </div>
+        `
+        document.querySelector('.toggle-container').insertAdjacentHTML("beforebegin",subjectHeading);
+    }
     for (const question of randomQuestionsArray[0].slice(currentQuestion - 1, currentQuestion)) {
         document.querySelector('.container-leftside').style.flexDirection = "row";
         containerRightSide.innerHTML = "";

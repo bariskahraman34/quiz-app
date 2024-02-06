@@ -125,9 +125,7 @@ body{
     transition: transform .5s;
 }
 
-.toggle-input:checked ~ .toggle-fill::after{
-    transform: translateX(20px);
-}
+
 
 /* Question Page Styling */
 .small-text{
@@ -331,4 +329,12 @@ body.dark-mode{
 
 .dark-mode .result-box{
     background-color: rgba(59, 77, 102, 1);
+}
+
+body.dark-mode .toggle-fill::after {
+    transform: translateX(20px);
+}
+
+body:not(.dark-mode) .toggle-fill::after {
+    transform: translateX(0);
 }

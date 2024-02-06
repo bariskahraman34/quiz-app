@@ -270,7 +270,7 @@ body{
 .option{
     transition: all .2s ease;
 }
-.option-btn:hover .option{
+.option-btn:not(.selected):hover .option{
     background-color: rgba(246, 231, 255, 1);
     color: var(--purple);
 }

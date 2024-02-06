@@ -10,6 +10,7 @@ let randomQuestionsArray = [];
 let subjectName;
 let subjectImg;
 let saveBtnClicked = false;
+let subject;
 
 for (const link of subjectLinks) {
     link.addEventListener('click',getSubject);
@@ -18,7 +19,7 @@ for (const link of subjectLinks) {
 
 function getSubject(e){
     e.preventDefault()
-    let subject = this.id;
+    subject = this.id;
     subjectName = document.querySelector(`#${this.id} span`).textContent;
     subjectImg = document.querySelector(`#${this.id} img`).src;
     return getQuestions(subject);
@@ -208,4 +209,16 @@ function finishQuiz(){
     </div>
     <button id="replay" class="submit-btn">Yeniden Deneyin</div>
     `
+    const replay = document.querySelector('#replay');
+    replay.addEventListener('click',restartQuiz);
+}
+
+function restartQuiz(){
+    currentQuestion = 1;
+    score = 0;
+    randomQuestionsArray = [];
+    subjectName;
+    subjectImg;
+    saveBtnClicked = false;
+    return getQuestions(subject)
 }

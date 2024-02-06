@@ -7,13 +7,13 @@ const containerRightSide = document.querySelector('.container-rightside');
 let currentQuestion = 1;
 let score = 0;
 let randomQuestionsArray = [];
+let subjectName;
+let subjectImg;
 
 for (const link of subjectLinks) {
     link.addEventListener('click',getSubject);
 }
 
-let subjectName;
-let subjectImg;
 
 function getSubject(e){
     e.preventDefault()
@@ -77,7 +77,6 @@ async function renderQuestions(){
     </div>
     `
     for (const question of randomQuestionsArray[0].slice(currentQuestion - 1, currentQuestion)) {
-        console.log(question)
         document.querySelector('.container-leftside').style.flexDirection = "row";
         containerRightSide.innerHTML = "";
         containerLeftSide.innerHTML = "";
@@ -85,7 +84,7 @@ async function renderQuestions(){
         `
         <div class="question-container">
             <div class="question-top">
-                <span class="small-text">Question ${currentQuestion} of 10</span>
+                <span class="small-text">${currentQuestion}.Soru /10 Soru</span>
                 <h3 class="question-text">${question.question}</h3>
             </div>
             <div class="progress-bar" style="margin-bottom:92px;">
@@ -121,7 +120,7 @@ async function renderQuestions(){
                 </a>
             </li>
         </ul>
-        <button type="submit" class="submit-btn">Cevabı Kaydet</button>
+        <button class="submit-btn save-btn">Cevabı Kaydet</button>
         <div class="no-option-selected" style="display:none;">
             <img src="assets/img/false-icon.svg">
             <span>Lütfen bir cevap seçiniz.<span>
@@ -132,7 +131,7 @@ async function renderQuestions(){
 }
 
 function checkAnswer(question){
-    const submitBtn = document.querySelector('.submit-btn');
+    const saveBtn = document.querySelector('.save-btn');
     const optionBtns = document.querySelectorAll('.option-btn');
     for (const option of optionBtns) {
         option.addEventListener('click',function(e){
@@ -143,7 +142,7 @@ function checkAnswer(question){
             this.classList.add('selected');
         })
     }
-    submitBtn.addEventListener('click',function(){
+    saveBtn.addEventListener('click',function(){
         for (const option of optionBtns) {
             option.style.pointerEvents = "none";
             if(option.classList.contains('selected')){
@@ -169,12 +168,45 @@ function checkAnswer(question){
                 }
             }
         }
-        submitBtn.textContent = "Sonraki Soru";
-        if(submitBtn.classList.contains('next')){
+        this.textContent = "Sonraki Soru";
+        this.classList.add('next');
+        this.classList.remove('save-btn');
+        return goNextQuestion();
+
+    })
+}
+
+function goNextQuestion(){
+    const nextQuestionBtn = document.querySelector('.next');
+    nextQuestionBtn.addEventListener('click',function(){
+        if(currentQuestion == 10){
+            this.textContent = "Quizi Bitir"
+            this.addEventListener('click',finishQuiz)
+        }else{
             currentQuestion++;
             return renderQuestions();
         }
-        submitBtn.classList.add('next');
     })
+}
 
+function finishQuiz(){
+    containerLeftSide.innerHTML = 
+    `
+    <div class="quiz-result-left-container">
+        <span class="quiz-result-text">Quizi tamamladınız</span>
+        <span class="quiz-result-text bold-text">Sonucunuz...</span>
+    </div>
+    `;
+    containerRightSide.innerHTML = 
+    `
+    <div class="result-box">
+        <div class="subject-heading">
+            <img src="${subjectImg}"/> 
+            <h2>${subjectName}</h2>
+        </div>
+        <span class="score-result">${score}</span>
+        <span class="small-text">${currentQuestion}.Soru /10 Soru</span>
+    </div>
+    <button id="replay" class="submit-btn">Play Again</div>
+    `
 }

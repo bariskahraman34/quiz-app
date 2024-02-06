@@ -224,3 +224,43 @@ body{
     font-size: 24px;
     line-height: 36px;
 }
+
+/* Test Result */
+.bold-text{
+    font-weight: 500 !important;
+}
+
+.quiz-result-text{
+    font-size: 64px;
+    line-height: 64px;
+    color: var(--dark-navy);
+    font-weight: 300;
+}
+
+.quiz-result-left-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.result-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 564px;
+    gap: 40px;
+    padding: 48px;
+    background-color: var(--pure-white);
+    border-radius: 24px;
+}
+
+.score-result{
+    font-weight: 500;
+    font-size: 144px;
+    line-height: 144px;
+    color: var(--dark-navy);
+}
+
+.result-box .small-text{
+    font-style: normal;
+}

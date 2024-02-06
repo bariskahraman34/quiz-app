@@ -338,3 +338,21 @@ body.dark-mode .toggle-fill::after {
 body:not(.dark-mode) .toggle-fill::after {
     transform: translateX(0);
 }
+
+/* Restart Modal */
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+  
+.modal-content {
+    background-color: var(--pure-white);
+    padding: 30px;
+}
+  

@@ -64,7 +64,17 @@ function getRandomQuestions(allQuestions, numberOfQuestions) {
 async function renderQuestions(){
     if(document.querySelector('.remove-this-element')){
         document.querySelector('.remove-this-element').remove();
-        const subjectHeading =
+        let subjectHeading =
+        `
+        <div class="subject-heading">
+            <img src="${subjectImg}"/> 
+            <h2>${subjectName}</h2>
+        </div>
+        `
+        document.querySelector('.toggle-container').insertAdjacentHTML("beforebegin",subjectHeading);
+    }else{
+        document.querySelector('.subject-heading').remove();
+        let subjectHeading =
         `
         <div class="subject-heading">
             <img src="${subjectImg}"/> 
@@ -218,5 +228,56 @@ function restartQuiz(){
     score = 0;
     randomQuestionsArray = [];
     saveBtnClicked = false;
-    return getQuestions(subject)
+    return restartQuizSubject();
+}
+
+function restartQuizSubject(){
+    containerLeftSide.innerHTML = 
+    `
+    <dialog id="restartModal" class="modal">
+        <div class="modal-content">
+            <ul class="subject-list">
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="html">
+                        <img src="assets/img/html.svg" alt="">
+                        <span>HTML</span>
+                    </a>
+                </li>
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="css">
+                        <img src="assets/img/css.svg" alt="">
+                        <span>
+                            CSS
+                        </span>
+                    </a>
+                </li>
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="js">
+                        <img src="assets/img/js.svg" alt="">
+                        <span>
+                            Javascript
+                        </span>
+                    </a>
+                </li>
+                <li class="subject-element">
+                    <a href="#" class="subject-link router" id="accessibility">
+                        <img src="assets/img/accessibility.svg" alt="">
+                        <span>Erişilebilirlik</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+    `
+    document.querySelector('#restartModal').showModal();
+    const subjects = document.querySelectorAll('.router');
+    for (const subjectLink of subjects) {
+        subjectLink.addEventListener('click',function(){
+            subject = this.id;
+            subjectName = document.querySelector(`#${this.id} span`).textContent;
+            subjectImg = document.querySelector(`#${this.id} img`).src;
+            document.querySelector('#restartModal').close();
+            return getQuestions(subject)
+        })
+    }
 }

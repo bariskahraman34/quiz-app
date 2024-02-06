@@ -6,6 +6,7 @@ const containerRightSide = document.querySelector('.container-rightside');
 
 let currentQuestion = 1;
 let score = 0;
+let randomQuestionsArray = [];
 
 for (const link of subjectLinks) {
     link.addEventListener('click',getSubject);
@@ -24,27 +25,32 @@ function getSubject(e){
 
 function getQuestions(subject){
     if(subject === "html"){
-        return getQuestions(subject);
+        return getJSONFilePath(subject);
     }else if(subject === "css"){
-        return getQuestions(subject);
+        return getJSONFilePath(subject);
     }else if(subject === "js"){
-        return getQuestions(subject);
+        return getJSONFilePath(subject);
     }else if(subject === "accessibility"){
-        return getQuestions(subject);
+        return getJSONFilePath(subject);
     }
 }
 
-function getQuestions(subject){
+function getJSONFilePath(subject){
     const jsonFilePath = `assets/json/${subject}.json`
     return createQuestions(jsonFilePath)
 }
 
 
-async function createQuestions(questions){
-    const response = await fetch(questions);
+async function createQuestions(jsonFilePath){
+    const response = await fetch(`${jsonFilePath}`);
     const data = await response.json();
+    return createRandomQuestions(data);
+}
+
+async function createRandomQuestions(data){
     const randomQuestions = getRandomQuestions(data,10);
-    return renderQuestions(randomQuestions);
+    randomQuestionsArray.push(randomQuestions);
+    return renderQuestions();
 }
 
 
@@ -53,8 +59,7 @@ function getRandomQuestions(allQuestions, numberOfQuestions) {
     return shuffledQuestions.slice(0, numberOfQuestions);
   }
 
-async function renderQuestions(data){
-    console.log(data)
+async function renderQuestions(){
     document.querySelector('.top-bar-container').innerHTML =
     `
     <div class="subject-heading">
@@ -71,7 +76,8 @@ async function renderQuestions(data){
         <img src="assets/img/moon.svg" alt="">
     </div>
     `
-    for (const question of data.slice(currentQuestion-1,currentQuestion)) {
+    for (const question of randomQuestionsArray[0].slice(currentQuestion - 1, currentQuestion)) {
+        console.log(question)
         document.querySelector('.container-leftside').style.flexDirection = "row";
         containerRightSide.innerHTML = "";
         containerLeftSide.innerHTML = "";
@@ -143,9 +149,9 @@ function checkAnswer(question){
             }
         }
         submitBtn.textContent = "Sonraki Soru";
-        submitBtn.classList.remove('submit-btn');
         if(submitBtn.classList.contains('next')){
             currentQuestion++;
+            return renderQuestions();
         }
         submitBtn.classList.add('next');
     })

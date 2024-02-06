@@ -9,19 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/quizApp.css">
     <script src="assets/js/quizApp.js" defer></script>
+    <script src="assets/js/themeSelector.js" defer></script>
     <title>Quiz App</title>
 </head>
-<body class="dark-mode">
+<body>
     <div class="top-bar-container">
         <div class="subject-heading"></div>
         <div class="toggle-container">
-            <img class="toggle-img" src="assets/img/sun.svg" alt="">
+            <img class="toggle-img" id="sun" src="assets/img/sun.svg" alt="">
             <label class="toggle" for="dark-mode">
                 <input class="toggle-input" type="checkbox" id="dark-mode">
                 <div class="toggle-fill">
                 </div>
             </label>
-            <img class="toggle-img" src="assets/img/moon.svg" alt="">
+            <img class="toggle-img" id="moon" src="assets/img/moon.svg" alt="">
         </div>
     </div>
 

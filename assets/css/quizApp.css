@@ -6,6 +6,7 @@
     --light-gray: rgba(244, 246, 250, 1);
     --green: rgba(38, 215, 130, 1);
     --red: rgba(238, 84, 84, 1);
+    --light-blueish: rgba(171, 193, 225, 1);
 }
 
 *,*::after,*::before{
@@ -280,4 +281,52 @@ body{
 
 .submit-btn:hover{
     background-color: rgba(167, 41, 245, .5);
+}
+
+/* Dark Mode */
+body.dark-mode{
+    background-color: var(--dark-navy);
+    background-image: url('../img/dark-mode-bg.svg');
+}
+
+.dark-mode .container-leftside h1{
+    color: var(--pure-white);
+}
+
+.dark-mode .small-text{
+    color: var(--light-blueish);
+}
+
+.dark-mode .subject-link{
+    background-color: rgba(59, 77, 102, 1);
+    color: var(--pure-white);
+}
+
+.dark-mode .question-text{
+    color: var(--pure-white);
+}
+
+.dark-mode .progress-bar{
+    background-color: rgba(59, 77, 102, 1);
+}
+
+.dark-mode .option{
+    color: var(--gray-navy);
+}
+
+.dark-mode .submit-btn:hover{
+    background-color: #d394fa;
+}
+
+.dark-mode .selected .option{
+    color: var(--pure-white);
+}
+
+.dark-mode .quiz-result-left-container span,
+.dark-mode .score-result,
+.dark-mode .subject-heading{
+    color: var(--pure-white);
+}
+.dark-mode .result-box{
+    background-color: rgba(59, 77, 102, 1);
 }

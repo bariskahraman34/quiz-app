@@ -1,15 +1,5 @@
 [
     {
-      "question": "CSS ile bir HTML elementine stil eklemek için hangi seçici kullanılır?",
-      "answers": {
-        "a": "ID seçici",
-        "b": "Class seçici",
-        "c": "Element seçici",
-        "d": "Attribut seçici"
-      },
-      "correctAnswer": "c"
-    },
-    {
       "question": "CSS'de bir özelliğin değerini sıfırlamak için kullanılan özel değer nedir?",
       "answers": {
         "a": "reset",
@@ -20,16 +10,6 @@
       "correctAnswer": "c"
     },
     {
-      "question": "CSS'de bir elementin kenarlık (border) özelliklerini belirlemek için kullanılan özellik nedir?",
-      "answers": {
-        "a": "border-style",
-        "b": "border-width",
-        "c": "border-color",
-        "d": "border"
-      },
-      "correctAnswer": "d"
-    },
-    {
       "question": "CSS'de bir özelliğin değerini yatay olarak hizalamak için kullanılan özellik nedir?",
       "answers": {
         "a": "vertical-align",
@@ -38,16 +18,6 @@
         "d": "margin"
       },
       "correctAnswer": "b"
-    },
-    {
-      "question": "CSS'de bir elementin opaklığını ayarlamak için kullanılan özellik nedir?",
-      "answers": {
-        "a": "opacity",
-        "b": "transparent",
-        "c": "visibility",
-        "d": "filter"
-      },
-      "correctAnswer": "a"
     },
     {
       "question": "CSS'de bir elementin genişliğini belirlemek için kullanılan özellik nedir?",
@@ -110,16 +80,6 @@
       "correctAnswer": "b"
     },
     {
-      "question": "CSS'de bir elementin kenar boşluğunu belirlemek için kullanılan özellik nedir?",
-      "answers": {
-        "a": "padding",
-        "b": "margin",
-        "c": "spacing",
-        "d": "gap"
-      },
-      "correctAnswer": "a"
-    },
-    {
       "question": "CSS'de bir elementin kenar çizgisinin tipini belirlemek için kullanılan özellik nedir?",
       "answers": {
         "a": "border-type",
@@ -128,16 +88,6 @@
         "d": "line-style"
       },
       "correctAnswer": "c"
-    },
-    {
-      "question": "CSS'de bir elementin z-index değerini belirlemek için kullanılan özellik nedir?",
-      "answers": {
-        "a": "stacking-index",
-        "b": "layer-index",
-        "c": "z-position",
-        "d": "z-index"
-      },
-      "correctAnswer": "d"
     },
     {
       "question": "CSS'de bir elementin dönme miktarını belirlemek için kullanılan özellik nedir?",
@@ -170,42 +120,12 @@
       "correctAnswer": "a"
     },
     {
-      "question": "CSS'de bir elementin görünürlüğünü belirlemek için kullanılan özellik nedir?",
-      "answers": {
-        "a": "visible",
-        "b": "display",
-        "c": "show",
-        "d": "visibility"
-      },
-      "correctAnswer": "d"
-    },
-    {
-      "question": "CSS'de bir elementin önceki kardeşine (sibling) stil uygulamak için kullanılan seçici nedir?",
-      "answers": {
-        "a": "next-sibling",
-        "b": "previous-sibling",
-        "c": "adjacent-sibling",
-        "d": "sibling-selector"
-      },
-      "correctAnswer": "c"
-    },
-    {
       "question": "CSS'de bir elementin üzerine gelindiğinde stil değiştirmek için kullanılan seçici nedir?",
       "answers": {
         "a": "hover-selector",
         "b": "active-selector",
         "c": "visited-selector",
         "d": "focus-selector"
-      },
-      "correctAnswer": "a"
-    },
-    {
-      "question": "CSS'de bir elementin yanındaki kardeşine (sibling) stil uygulamak için kullanılan seçici nedir?",
-      "answers": {
-        "a": "next-sibling",
-        "b": "previous-sibling",
-        "c": "adjacent-sibling",
-        "d": "sibling-selector"
       },
       "correctAnswer": "a"
     },
@@ -220,36 +140,6 @@
       "correctAnswer": "b"
     },
     {
-      "question": "CSS'de bir elementin durumunu kontrol etmek için kullanılan seçici nedir?",
-      "answers": {
-        "a": "state-selector",
-        "b": "condition-selector",
-        "c": "mode-selector",
-        "d": "pseudo-class-selector"
-      },
-      "correctAnswer": "d"
-    },
-    {
-      "question": "CSS'de bir elementin altındaki tüm alt elementlere stil uygulamak için kullanılan seçici nedir?",
-      "answers": {
-        "a": "child-selector",
-        "b": "all-selector",
-        "c": "descendant-selector",
-        "d": "sub-selector"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "question": "CSS'de bir elementin belirli bir durumdayken stil değiştirmek için kullanılan seçici nedir?",
-      "answers": {
-        "a": "conditional-selector",
-        "b": "mode-selector",
-        "c": "state-selector",
-        "d": "conditional-class-selector"
-      },
-      "correctAnswer": "c"
-    },
-    {
       "question": "CSS'de bir elementin belirli bir durumdayken stil değiştirmek için kullanılan özellik nedir?",
       "answers": {
         "a": "condition-style",
@@ -260,12 +150,192 @@
       "correctAnswer": "d"
     },
     {
-      "question": "CSS'de bir elementin içerisindeki metni büyütmek için kullanılan özellik nedir?",
+      "question": "CSS'de 'margin' özelliği ne işe yarar?",
       "answers": {
-        "a": "text-scale",
-        "b": "font-scale",
-        "c": "text-zoom",
-        "d": "font-size-adjust"
+        "a": "Öğenin iç içe geçtiği diğer öğelerden uzaklık belirler.",
+        "b": "Öğenin kenarlarının rengini belirler.",
+        "c": "Öğenin metin içeriğini hizalar.",
+        "d": "Öğenin genişliğini ve yüksekliğini belirler."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'padding' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Öğenin iç içe geçtiği diğer öğelerden uzaklık belirler.",
+        "b": "Öğenin kenarlarının rengini belirler.",
+        "c": "Öğenin metin içeriğini hizalar.",
+        "d": "Öğenin iç kısmını, içeriğin etrafındaki boşluk ile doldurur."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "CSS'de 'display: inline' ile 'display: block' arasındaki fark nedir?",
+      "answers": {
+        "a": "'inline' olan öğeler yan yana sıralanırken, 'block' olan öğeler dikey olarak üst üste gelir.",
+        "b": "'block' olan öğeler yan yana sıralanırken, 'inline' olan öğeler dikey olarak üst üste gelir.",
+        "c": "'inline' öğeler yuvarlak köşelere sahipken, 'block' öğeler keskin köşelere sahiptir.",
+        "d": "'block' öğeler yuvarlak köşelere sahipken, 'inline' öğeler keskin köşelere sahiptir."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'position: relative' ile 'position: absolute' arasındaki fark nedir?",
+      "answers": {
+        "a": "'relative' pozisyonlu bir öğe, normal belgelere göre konumlandırılırken, 'absolute' pozisyonlu bir öğe, belge içinde en yakın konumlandırılmış öğeye göre konumlandırılır.",
+        "b": "'absolute' pozisyonlu bir öğe, normal belgelere göre konumlandırılırken, 'relative' pozisyonlu bir öğe, belge içinde en yakın konumlandırılmış öğeye göre konumlandırılır.",
+        "c": "'relative' pozisyonlu bir öğe, belge içinde en üst seviyede konumlandırılırken, 'absolute' pozisyonlu bir öğe, belge içinde en alt seviyede konumlandırılır.",
+        "d": "'absolute' pozisyonlu bir öğe, belge içinde en üst seviyede konumlandırılırken, 'relative' pozisyonlu bir öğe, belge içinde en alt seviyede konumlandırılır."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'float' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Öğenin belge içinde sağa veya sola kaydırılmasını sağlar.",
+        "b": "Öğenin kenarlarının rengini belirler.",
+        "c": "Öğenin genişliğini ve yüksekliğini belirler.",
+        "d": "Öğenin iç kısmını, içeriğin etrafındaki boşluk ile doldurur."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'box-sizing' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Kutu modelinde öğenin boyutunu belirler.",
+        "b": "Öğenin metin içeriğini hizalar.",
+        "c": "Öğenin iç kısmını, içeriğin etrafındaki boşluk ile doldurur.",
+        "d": "Öğenin iç içe geçtiği diğer öğelerden uzaklık belirler."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'z-index' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Bir öğenin diğer öğeler üzerindeki yığınlama sırasını belirler.",
+        "b": "Öğenin genişliğini ve yüksekliğini belirler.",
+        "c": "Öğenin kenarlarının rengini belirler.",
+        "d": "Bir öğenin sayfadaki konumunu belirler."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'flexbox' ne işe yarar?",
+      "answers": {
+        "a": "Öğelerin düzenini ve hizalamasını kontrol etmek için bir düzen modeli sağlar.",
+        "b": "Bir öğenin diğer öğeler üzerindeki yığınlama sırasını belirler.",
+        "c": "Bir öğenin diğer öğeler üzerindeki sayfadaki konumunu belirler.",
+        "d": "Öğelerin iç kısmını, içeriğin etrafındaki boşluk ile doldurur."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'transition' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Bir öğenin belirli bir süre içinde belirli bir stilde animasyonla geçişini sağlar.",
+        "b": "Bir öğenin sayfadaki konumunu belirler.",
+        "c": "Bir öğenin diğer öğeler üzerindeki sayfadaki konumunu belirler.",
+        "d": "Bir öğenin diğer öğeler üzerindeki yığınlama sırasını belirler."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'opacity' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Bir öğenin sayfadaki konumunu belirler.",
+        "b": "Bir öğenin görünürlüğünü ayarlar.",
+        "c": "Bir öğenin diğer öğeler üzerindeki sayfadaki konumunu belirler.",
+        "d": "Bir öğenin diğer öğeler üzerindeki yığınlama sırasını belirler."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "CSS'de 'box-shadow' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Bir öğenin metnini gölgeleyerek vurgular.",
+        "b": "Bir öğenin kenarlarına gölge ekler.",
+        "c": "Bir öğenin içeriğini hizalar.",
+        "d": "Bir öğenin genişliğini ve yüksekliğini belirler."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "CSS'de 'font-weight' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Metin fontunun kalınlığını belirler.",
+        "b": "Metin fontunu italik yapar.",
+        "c": "Metin fontunu altı çizili yapar.",
+        "d": "Metin fontunu büyütür."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'media query' nedir ve ne işe yarar?",
+      "answers": {
+        "a": "Belirli ekran boyutlarında belirli CSS kurallarını uygulamak için kullanılır.",
+        "b": "Metin fontunu belirli boyutta gösterir.",
+        "c": "Belirli renk profillerini tanımlamak için kullanılır.",
+        "d": "Belirli bir öğenin durumuna göre CSS seçicilerini seçmek için kullanılır."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'grid' nedir ve ne işe yarar?",
+      "answers": {
+        "a": "Öğelerin düzenini ve hizalamasını kontrol etmek için bir düzen modeli sağlar.",
+        "b": "Bir öğenin diğer öğeler üzerindeki yığınlama sırasını belirler.",
+        "c": "Bir öğenin diğer öğeler üzerindeki sayfadaki konumunu belirler.",
+        "d": "Öğelerin iç kısmını, içeriğin etrafındaki boşluk ile doldurur."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'position: fixed' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Öğeyi belirli bir konumda sabitler, ekranı kaydırdığınızda bile yer değiştirmez.",
+        "b": "Öğeyi normal belge akışına göre konumlandırır.",
+        "c": "Öğeyi belirli bir konuma göre dikey olarak kaydırır.",
+        "d": "Öğeyi belirli bir konuma göre yatay olarak kaydırır."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'overflow' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Öğenin içeriğinin dışına taşan kısmını nasıl işleyeceğini belirler.",
+        "b": "Öğenin içeriğini hizalar.",
+        "c": "Öğenin kenarlarının rengini belirler.",
+        "d": "Öğenin genişliğini ve yüksekliğini belirler."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'visibility' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Öğenin görünürlüğünü ayarlar.",
+        "b": "Öğenin içeriğini hizalar.",
+        "c": "Öğenin kenarlarının rengini belirler.",
+        "d": "Öğenin genişliğini ve yüksekliğini belirler."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'background' özelliği ne işe yarar?",
+      "answers": {
+        "a": "Öğenin arka plan rengini ve görüntüsünü belirler.",
+        "b": "Öğenin içeriğinin dışına taşan kısmını nasıl işleyeceğini belirler.",
+        "c": "Öğenin kenarlarının rengini belirler.",
+        "d": "Öğenin metnini gölgeleyerek vurgular."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "CSS'de 'viewport units' (vw, vh) nedir ve ne işe yarar?",
+      "answers": {
+        "a": "Metin fontunu belirli boyutta gösterir.",
+        "b": "Belirli ekran boyutlarında belirli CSS kurallarını uygulamak için kullanılır.",
+        "c": "Belirli bir metin stilini belirler.",
+        "d": "Belirli bir öğenin genişliğini ve yüksekliğini belirler."
       },
       "correctAnswer": "d"
     }

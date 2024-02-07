@@ -260,16 +260,6 @@
     "correctAnswer": "a"
   },
   {
-    "question": "JavaScript'te, bir nesnenin özelliklerini ve değerlerini döndüren yöntem hangisidir?",
-    "answers": {
-      "a": "properties()",
-      "b": "keys()",
-      "c": "values()",
-      "d": "items()"
-    },
-    "correctAnswer": "b"
-  },
-  {
     "question": "JavaScript'te iki string'i karşılaştırmak için hangi operatör kullanılır?",
     "answers": {
       "a": "==",
@@ -290,12 +280,132 @@
     "correctAnswer": "b"
   },
   {
-    "question": "JavaScript'e nasıl yorum ekleyebilirsiniz?",
+    "question": "JavaScript'te 'NaN' neyi ifade eder?",
     "answers": {
-      "a": "//Bu bir yorumdur.",
-      "b": "<!-- Bu bir yorumdur --&gt;",
-      "c": "'Bu bir yorumdur'",
-      "d": "/-Bu bir yorumdur-/"
+      "a": "'Not a Number' yani sayı olmayan değer",
+      "b": "'Not Available Now' yani şu anda kullanılamayan değer",
+      "c": "'Newly Assigned Number' yani yeni atanan sayı",
+      "d": "'Null and Negative' yani null ve negatif sayı"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te '===' ve '==' arasındaki fark nedir?",
+    "answers": {
+      "a": "Herhangi bir fark yok, aynı işlevi görürler.",
+      "b": "'===' değer ve tür kontrolü yapar, '==' sadece değer kontrolü yapar.",
+      "c": "'===' sadece değer kontrolü yapar, '==' değer ve tür kontrolü yapar.",
+      "d": "'===' sadece tür kontrolü yapar, '==' değer ve tür kontrolü yapar."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te 'let' ve 'var' arasındaki fark nedir?",
+    "answers": {
+      "a": "Herhangi bir fark yok, aynı işlevi görürler.",
+      "b": "'let' blok kapsamında değişken tanımlamak için kullanılır, 'var' ise global veya fonksiyon kapsamında.",
+      "c": "'var' blok kapsamında değişken tanımlamak için kullanılır, 'let' ise global veya fonksiyon kapsamında.",
+      "d": "'let' sadece sayısal değerler için kullanılır, 'var' ise string değerler için."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Aşağıdaki kodun çıktısı nedir?<br>const arr = [1, 2, 3];<br>arr.push(4);<br>console.log(arr);",
+    "answers": {
+      "a": "[1, 2, 3]",
+      "b": "[1, 2, 3, 4]",
+      "c": "[4, 3, 2, 1]",
+      "d": "Hata alır."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Aşağıdaki kodun çıktısı nedir?<br><code>const a = { key: 'value' };<br>const b = a;<br>b.key = 'updated value';<br>console.log(a.key);</code>",
+    "answers": {
+      "a": "'value'",
+      "b": "'updated value'",
+      "c": "Hata alır.",
+      "d": "undefined"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te 'callback' fonksiyonlarının kullanımı ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "answers": {
+      "a": "Callback fonksiyonlar sadece asenkron işlemlerde kullanılır.",
+      "b": "Callback fonksiyonlar, bir fonksiyonun parametresi olarak başka bir fonksiyonun iletilmesini sağlar.",
+      "c": "Callback fonksiyonlar, yalnızca tarayıcı ortamında kullanılabilir.",
+      "d": "Callback fonksiyonlar, JavaScript'te kullanılmaz."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Aşağıdaki kodun çıktısı nedir?<br><code>console.log(typeof null);</code>",
+    "answers": {
+      "a": "'null'",
+      "b": "'object'",
+      "c": "'undefined'",
+      "d": "'number'"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Aşağıdaki kodun çıktısı nedir?<br><code>function foo() { <br>console.log(a);<br>var a = 10;}<br>foo();</code>",
+    "answers": {
+      "a": "Hata alır.",
+      "b": "'undefined'",
+      "c": "'10'",
+      "d": "'a is not defined'"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Aşağıdaki kodun çıktısı nedir?<br><code>console.log(0.1 + 0.2 === 0.3);</code>",
+    "answers": {
+      "a": "true",
+      "b": "false",
+      "c": "TypeError",
+      "d": "SyntaxError"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "JavaScript'te 'setTimeout' fonksiyonu ne işe yarar?",
+    "answers": {
+      "a": "Belirli bir süre sonra belirtilen bir işlevi çalıştırmak için kullanılır.",
+      "b": "Belirli bir süre sonra sayfayı yeniden yüklemek için kullanılır.",
+      "c": "Belirli bir süre sonra tarayıcıyı kapatmak için kullanılır.",
+      "d": "Belirli bir süre sonra kullanıcıya bir uyarı mesajı göstermek için kullanılır."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te 'indexOf' fonksiyonu hangi amaçla kullanılır?",
+    "answers": {
+      "a": "Bir dizide belirli bir değerin konumunu bulmak için kullanılır.",
+      "b": "Bir dizinin belirli bir kısmını kopyalamak için kullanılır.",
+      "c": "Bir dizi içindeki elemanların toplamını bulmak için kullanılır.",
+      "d": "Bir nesnenin özelliklerini döndürmek için kullanılır."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Aşağıdaki kodun çıktısı nedir?<br><code>console.log(typeof NaN);</code>",
+    "answers": {
+      "a": "'number'",
+      "b": "'NaN'",
+      "c": "'undefined'",
+      "d": "'string'"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "JavaScript'te 'find' fonksiyonu hangi amaçla kullanılır?",
+    "answers": {
+      "a": "Bir dizide belirli bir koşulu sağlayan ilk elemanı bulmak için kullanılır.",
+      "b": "Bir dizinin belirli bir kısmını kopyalamak için kullanılır.",
+      "c": "Bir dizi içindeki belirli bir kısmı çıkarmak veya değiştirmek için kullanılır.",
+      "d": "Bir dizi içindeki elemanların toplamını bulmak için kullanılır."
     },
     "correctAnswer": "a"
   }

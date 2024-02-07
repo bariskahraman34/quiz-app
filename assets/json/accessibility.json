@@ -1,272 +1,172 @@
 [
   {
-    "question": "Web sayfalarında erişilebilirlik açısından doğru olan hangisidir?",
+    "question": "Erişilebilir web tasarımı nedir?",
     "answers": {
-      "a": "WAI-ARIA",
-      "b": "HTML5",
-      "c": "CSS3",
-      "d": "JavaScript"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Ekran okuyucular için web sayfalarında metin alternatifleri sağlamak için hangi HTML öğesi kullanılır?",
-    "answers": {
-      "a": "&lt;alt&gt;",
-      "b": "&lt;text&gt;",
-      "c": "&lt;desc&gt;",
-      "d": "&lt;img&gt;"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Klavye kullanıcıları için erişilebilirlik sağlamak için hangi HTML öğesi kullanılabilir?",
-    "answers": {
-      "a": "&lt;button&gt;",
-      "b": "&lt;div&gt;",
-      "c": "&lt;a&gt;",
-      "d": "&lt;input&gt;"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Sayfa başlığını tanımlamak için hangi HTML öğesi kullanılır?",
-    "answers": {
-      "a": "&lt;title&gt;",
-      "b": "&lt;h1&gt;",
-      "c": "&lt;header&gt;",
-      "d": "&lt;caption&gt;"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Formlar için doğru etiketleri kullanarak form elemanlarıyla ilişkilendirme sağlamak için hangi HTML öğesi kullanılır?",
-    "answers": {
-      "a": "&lt;label&gt;",
-      "b": "&lt;input&gt;",
-      "c": "&lt;form&gt;",
-      "d": "&lt;button&gt;"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Web sayfalarında düzgün bir okuma sırası sağlamak için hangi HTML öğesi kullanılabilir?",
-    "answers": {
-      "a": "&lt;order&gt;",
-      "b": "&lt;sequence&gt;",
-      "c": "&lt;nav&gt;",
-      "d": "&lt;tabindex&gt;"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Bir sayfanın ana içeriğini tanımlamak için hangi HTML öğesi kullanılır?",
-    "answers": {
-      "a": "&lt;main&gt;",
-      "b": "&lt;content&gt;",
-      "c": "&lt;section&gt;",
-      "d": "&lt;body&gt;"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Web sayfalarında bağlantıların net ve açık olmasını sağlamak için hangi özellik kullanılır?",
-    "answers": {
-      "a": "href",
-      "b": "url",
-      "c": "link",
-      "d": "title"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Sayfanın dilini belirtmek için hangi HTML öğesi kullanılır?",
-    "answers": {
-      "a": "&lt;lang&gt;",
-      "b": "&lt;language&gt;",
-      "c": "&lt;meta&gt;",
-      "d": "&lt;html&gt;"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Sayfa içeriğini gruplamak ve tanımlamak için hangi HTML öğesi kullanılır?",
-    "answers": {
-      "a": "&lt;group&gt;",
-      "b": "&lt;container&gt;",
-      "c": "&lt;section&gt;",
-      "d": "&lt;wrapper&gt;"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "question": "Web sayfalarında sesli açıklamaları temsil etmek için hangi özellik kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "aria-label",
-      "c": "audio-description",
-      "d": "role"
+      "a": "Sadece görme engellilerin erişebileceği şekilde tasarlanmış web siteleri.",
+      "b": "Herkesin, engelli veya engelsiz, web sitelerine kolaylıkla erişebilmesini sağlayan web tasarımı.",
+      "c": "Sadece işitme engellilerin erişebileceği şekilde tasarlanmış web siteleri.",
+      "d": "Web sitelerine yavaş bağlantıya sahip kullanıcıların erişimini kolaylaştıran tasarım."
     },
     "correctAnswer": "b"
   },
   {
-    "question": "Erişilebilirlik açısından, web sayfalarında hangi düzenleme dili önerilir?",
+    "question": "Erişilebilir web tasarımı neden önemlidir?",
     "answers": {
-      "a": "XML",
-      "b": "JSON",
-      "c": "HTML",
-      "d": "CSS"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "question": "Ekran okuyucular için metin alternatifleri sağlamak için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "desc"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Web sayfalarında bir HTML öğesinin işlevini açıklamak için hangi özellik kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "desc"
+      "a": "Sadece engelliler için yasal gereklilikleri karşılamak için.",
+      "b": "Engellilerin web sitelerine erişimini engellememek ve daha geniş bir kullanıcı kitlesine ulaşmak için.",
+      "c": "Sadece görme engellilerin web sitelerine erişimini sağlamak için.",
+      "d": "Web sitesinin estetik görünümünü artırmak için."
     },
     "correctAnswer": "b"
   },
   {
-    "question": "Web sayfalarında bir nesnenin hangi bölümüne erişilebilirlik özellikleri eklemek için kullanılır?",
+    "question": "HTML'de 'alt' özniteliği ne için kullanılır?",
     "answers": {
-      "a": "header",
-      "b": "main",
-      "c": "footer",
-      "d": "all of the above"
+      "a": "Resimlerin veya diğer medya öğelerinin alternatif metnini belirtmek için.",
+      "b": "Belirli bir sayfaya olan bağlantının açıklamasını belirtmek için.",
+      "c": "Metni vurgulamak için.",
+      "d": "Sayfanın ana başlığını belirtmek için."
     },
-    "correctAnswer": "d"
+    "correctAnswer": "a"
   },
   {
-    "question": "Web sayfalarında klavye kullanımını desteklemek için hangi özellik kullanılır?",
+    "question": "HTML'de 'title' öğesi ne için kullanılır?",
     "answers": {
-      "a": "keyboard",
-      "b": "accessibility",
-      "c": "tabindex",
-      "d": "aria"
+      "a": "Resimlerin veya diğer medya öğelerinin alternatif metnini belirtmek için.",
+      "b": "Belirli bir sayfaya olan bağlantının açıklamasını belirtmek için.",
+      "c": "Metni vurgulamak için.",
+      "d": "Sayfanın ana başlığını belirtmek için."
     },
-    "correctAnswer": "c"
+    "correctAnswer": "b"
   },
   {
-    "question": "Web sayfalarında bir ses kaydı için alternatif metin sağlamak için hangi HTML özelliği kullanılır?",
+    "question": "Web erişilebilirliği için CSS'in hangi özelliği kullanılabilir?",
     "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "aria-label"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Erişilebilirlik açısından, web sayfalarında hangi dil özelliği önemlidir?",
-    "answers": {
-      "a": "role",
-      "b": "title",
+      "a": "display: hidden",
+      "b": "visibility: hidden",
       "c": "aria-label",
-      "d": "lang"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Bir web sayfasındaki resimlerin yanlış yüklenmesi durumunda görüntülenecek metin için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "desc"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Web sayfalarında bir HTML öğesinin bağlantı olduğunu belirtmek için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "href"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Web sayfalarında bir HTML öğesinin erişilebilirlik rolünü belirtmek için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "href"
+      "d": "outline: none"
     },
     "correctAnswer": "c"
   },
   {
-    "question": "Web sayfalarında bir HTML öğesinin bir resmi temsil ettiğini belirtmek için hangi HTML özelliği kullanılır?",
+    "question": "HTML'de 'lang' özniteliği ne için kullanılır?",
     "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "href"
+      "a": "Sayfanın dili veya dil kodunu belirtmek için.",
+      "b": "Resimlerin veya diğer medya öğelerinin alternatif metnini belirtmek için.",
+      "c": "Metni vurgulamak için.",
+      "d": "Sayfanın ana başlığını belirtmek için."
     },
     "correctAnswer": "a"
   },
   {
-    "question": "Web sayfalarında bir HTML öğesinin ek açıklamalarını sağlamak için hangi HTML özelliği kullanılır?",
+    "question": "Erişilebilir web tasarımında 'aria-labelledby' özelliği ne için kullanılır?",
     "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "desc"
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin görüntüsünü gizlemek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
     },
     "correctAnswer": "d"
   },
   {
-    "question": "Web sayfalarında bir HTML öğesinin etiketini sağlamak için hangi HTML özelliği kullanılır?",
+    "question": "Hangisi erişilebilir web tasarımı için önemli bir prensiptir?",
     "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "label"
+      "a": "Sadece belirli bir hedef kitle için tasarım yapmak.",
+      "b": "Görme engelliler için ayrı bir web sitesi oluşturmak.",
+      "c": "Kullanıcı deneyimini optimize etmek.",
+      "d": "Web sitesinin renklerini dikkatsizce seçmek."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Erişilebilir web tasarımında 'aria-hidden' özelliği ne için kullanılır?",
+    "answers": {
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin görüntüsünü gizlemek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Erişilebilir web tasarımında 'tabindex' özelliği ne için kullanılır?",
+    "answers": {
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin sırasını belirtmek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Hangisi erişilebilir web tasarımı için önemli bir prensiptir?",
+    "answers": {
+      "a": "Sadece belirli bir hedef kitle için tasarım yapmak.",
+      "b": "Görme engelliler için ayrı bir web sitesi oluşturmak.",
+      "c": "Kullanıcı deneyimini optimize etmek.",
+      "d": "Web sitesinin renklerini dikkatsizce seçmek."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Erişilebilir web tasarımında 'aria-live' özelliği ne için kullanılır?",
+    "answers": {
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin canlı güncellemelerini belirtmek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Erişilebilir web tasarımında 'aria-expanded' özelliği ne için kullanılır?",
+    "answers": {
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin açıldığını veya kapandığını belirtmek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Erişilebilir web tasarımında 'aria-describedby' özelliği ne için kullanılır?",
+    "answers": {
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin açıklamasını belirtmek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Erişilebilir web tasarımında 'role' özelliği ne için kullanılır?",
+    "answers": {
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin rolünü belirtmek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Hangisi web erişilebilirliğini artırmak için kullanılan bir HTML özelliği değildir?",
+    "answers": {
+      "a": "aria-label",
+      "b": "alt",
+      "c": "lang",
+      "d": "hidden"
     },
     "correctAnswer": "d"
   },
   {
-    "question": "Web sayfalarında bir HTML öğesinin bağlantısının açıklamasını sağlamak için hangi HTML özelliği kullanılır?",
+    "question": "Erişilebilir web tasarımında 'aria-controls' özelliği ne için kullanılır?",
     "answers": {
-      "a": "alt",
-      "b": "title",
-      "c": "role",
-      "d": "aria-label"
+      "a": "Bir öğenin erişilebilir metnini belirtmek için.",
+      "b": "Bir öğenin kontrol ettiği öğeleri belirtmek için.",
+      "c": "Bir öğenin etkin olup olmadığını belirtmek için.",
+      "d": "Bir öğenin bağlı olduğu etiketin ID'sini belirtmek için."
     },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "Web sayfalarında bir HTML öğesinin içeriğinin dili için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "&lt;lang&gt;",
-      "b": "&lt;title&gt;",
-      "c": "&lt;role&gt;",
-      "d": "&lt;hreflang&gt;"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "Web sayfalarında bir HTML öğesinin erişilebilirliğini sağlamak için hangi HTML özelliği kullanılır?",
-    "answers": {
-      "a": "&lt;alt&gt;",
-      "b": "&lt;title&gt;",
-      "c": "&lt;role&gt;",
-      "d": "&lt;aria&gt;"
-    },
-    "correctAnswer": "d"
+    "correctAnswer": "b"
   }
 ]

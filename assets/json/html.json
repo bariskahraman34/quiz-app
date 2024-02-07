@@ -110,26 +110,6 @@
     "correctAnswer": "a"
   },
   {
-    "question": "HTML5 ile gelen yerel depolama özelliğini kontrol etmek için kullanılan nesne hangisidir?",
-    "answers": {
-      "a": "localStorage",
-      "b": "sessionStorage",
-      "c": "localStore",
-      "d": "sessionStore"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "HTML'de bir sayfanın başlığını belirlemek için kullanılan etiket hangisidir?",
-    "answers": {
-      "a": "&lt;head&gt;",
-      "b": "&lt;title&gt;",
-      "c": "&lt;header&gt;",
-      "d": "&lt;h1&gt;"
-    },
-    "correctAnswer": "b"
-  },
-  {
     "question": "HTML ile bir sayfada altı çizili metin oluşturmak için hangi etiket kullanılır?",
     "answers": {
       "a": "&lt;underline&gt;",
@@ -140,7 +120,7 @@
     "correctAnswer": "b"
   },
   {
-    "question": "HTML sayfalarında kullanılan meta etiketi ne işe yarar?",
+    "question": "HTML sayfalarında kullanılan UTF-8 ne işe yarar?",
     "answers": {
       "a": "Stil tanımlar",
       "b": "Sayfa açıklaması ekler",
@@ -210,37 +190,7 @@
     "correctAnswer": "c"
   },
   {
-    "question": "HTML formunda kullanılan onay kutusu (checkbox) için hangi etiket kullanılır?",
-    "answers": {
-      "a": "&lt;check&gt;",
-      "b": "&lt;input type='checkbox'&gt;",
-      "c": "&lt;checkbox&gt;",
-      "d": "&lt;input type='check'&gt;"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "question": "HTML'de bir sayfada düz metin oluşturmak için hangi etiket kullanılır?",
-    "answers": {
-      "a": "&lt;normal&gt;",
-      "b": "&lt;text&gt;",
-      "c": "&lt;plain&gt;",
-      "d": "&lt;pre&gt;"
-    },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "HTML'de bir sayfada bir bölüm oluşturmak için hangi etiket kullanılır?",
-    "answers": {
-      "a": "&lt;section&gt;",
-      "b": "&lt;div&gt;",
-      "c": "&lt;block&gt;",
-      "d": "&lt;area&gt;"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "question": "HTML sayfalarında kullanılan başlık etiketleri hangi sırayla büyüklük gösterir?",
+    "question": "HTML sayfalarında kullanılan başlık etiketlerinin büyükten küçüğe doğru sıralanışı hangisidir?",
     "answers": {
       "a": "&lt;h1&gt; - &lt;h6&gt;",
       "b": "&lt;h6&gt; - &lt;h1&gt;",
@@ -260,16 +210,6 @@
     "correctAnswer": "a"
   },
   {
-    "question": "HTML'de bir sayfanın alt bilgi (footer) bölümünü belirtmek için hangi etiket kullanılır?",
-    "answers": {
-      "a": "&lt;footer&gt;",
-      "b": "&lt;bottom&gt;",
-      "c": "&lt;end&gt;",
-      "d": "&lt;foot&gt;"
-    },
-    "correctAnswer": "a"
-  },
-  {
     "question": "HTML formunda bir dosya yükleme alanı oluşturmak için hangi etiket kullanılır?",
     "answers": {
       "a": "&lt;upload&gt;",
@@ -280,23 +220,123 @@
     "correctAnswer": "b"
   },
   {
-    "question": "HTML'de bir sayfada bir resim alt yazısı eklemek için hangi etiket kullanılır?",
+    "question": "HTML'de 'aside' öğesi ne işe yarar?",
     "answers": {
-      "a": "&lt;caption&gt;",
-      "b": "&lt;alt&gt;",
-      "c": "&lt;description&gt;",
-      "d": "&lt;imgalt&gt;"
+      "a": "Sayfanın başlık bilgisini belirtir.",
+      "b": "Metni kalın olarak gösterir.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "HTML'de 'nav' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Sayfanın başlık bilgisini belirtir.",
+      "b": "Navigasyon bağlantılarını içerir.",
+      "c": "Belge içeriğinin ana başlığını belirtir.",
+      "d": "Sayfanın içeriğini belirler."
     },
     "correctAnswer": "b"
   },
   {
-    "question": "HTML formunda bir onay düğmesi (radio button) oluşturmak için hangi etiket kullanılır?",
+    "question": "HTML'de 'section' öğesi ne işe yarar?",
     "answers": {
-      "a": "&lt;radio&gt;",
-      "b": "&lt;input type='radio'&gt;",
-      "c": "&lt;radiobutton&gt;",
-      "d": "&lt;input type='button'&gt;"
+      "a": "Bir belgenin başlık bilgisini belirtir.",
+      "b": "Bir metni bölümlere ayırır ve belirli bir konseptin altında gruplar.",
+      "c": "Belge içeriğinin ana başlığını belirtir.",
+      "d": "Sayfanın içeriğini belirler."
     },
     "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'footer' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Bir belgenin başlık bilgisini belirtir.",
+      "b": "Sayfanın altında yer alan bilgileri içerir.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'article' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Bir belgenin başlık bilgisini belirtir.",
+      "b": "Makale içeriğini tanımlar.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'main' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Sayfanın başlık bilgisini belirtir.",
+      "b": "Sayfanın ana içeriğini belirtir.",
+      "c": "Belge içeriğinin ana başlığını belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'iframe' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Belirli bir resmin alternatif metnini belirtir.",
+      "b": "Bir başka belgeyi içeriğine dahil eder.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'audio' ve 'video' öğeleri ne işe yarar?",
+    "answers": {
+      "a": "Belirli bir resmin alternatif metnini belirtir.",
+      "b": "Ses ve video içeriği gömülür.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'datalist' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Bir belgenin başlık bilgisini belirtir.",
+      "b": "Bir öğe için bir veri listesi oluşturur.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'sup' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Bir belgenin başlık bilgisini belirtir.",
+      "b": "Üst simge veya üst metni belirtir.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'sub' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Bir belgenin başlık bilgisini belirtir.",
+      "b": "Alt simge veya alt metni belirtir.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTML'de 'small' öğesi ne işe yarar?",
+    "answers": {
+      "a": "Küçük metin için kullanılır.",
+      "b": "Bir belgenin başlık bilgisini belirtir.",
+      "c": "Sayfa içeriğinden bağımsız yan bilgi içeriği belirtir.",
+      "d": "Sayfanın içeriğini belirler."
+    },
+    "correctAnswer": "a"
   }
 ]

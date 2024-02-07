@@ -53,6 +53,9 @@ body{
 }
 
 /* Container Right Side */
+.container-rightside{
+    position: relative;
+}
 
 .subject-list{
     width: 564px;
@@ -189,6 +192,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .subject-heading{
@@ -220,7 +224,7 @@ body{
 
 .no-option-selected{
     position: absolute;
-    left: 61%;
+    left: 25%;
     margin-top: 30px;
     color: var(--red);
     display: flex;
@@ -366,4 +370,8 @@ body:not(.dark-mode) .toggle-fill::after {
 
 ::backdrop{
     background-color: rgba(0, 0, 0, .5);
+}
+
+code{
+    font-size: 32px;
 }

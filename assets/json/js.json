@@ -235,7 +235,7 @@
       "a": "replace()",
       "b": "substitute()",
       "c": "swap()",
-      "d": "modify()"
+      "d": "splice()"
     },
     "correctAnswer": "d"
   },
@@ -273,9 +273,9 @@
     "question": "JavaScript'te iki string'i karşılaştırmak için hangi operatör kullanılır?",
     "answers": {
       "a": "==",
-      "b": "===",
+      "b": "=!",
       "c": "!=",
-      "d": "!=="
+      "d": "!<>"
     },
     "correctAnswer": "a"
   },
@@ -293,7 +293,7 @@
     "question": "JavaScript'e nasıl yorum ekleyebilirsiniz?",
     "answers": {
       "a": "//Bu bir yorumdur.",
-      "b": "<!-- Bu bir yorumdur --!>",
+      "b": "<!-- Bu bir yorumdur --&gt;",
       "c": "'Bu bir yorumdur'",
       "d": "/-Bu bir yorumdur-/"
     },

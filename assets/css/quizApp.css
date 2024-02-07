@@ -219,6 +219,8 @@ body{
 }
 
 .no-option-selected{
+    position: absolute;
+    left: 61%;
     margin-top: 30px;
     color: var(--red);
     display: flex;
@@ -339,6 +341,11 @@ body:not(.dark-mode) .toggle-fill::after {
     transform: translateX(0);
 }
 
+.dark-mode .modal-content{
+    background-color: var(--dark-navy);
+
+}
+
 /* Restart Modal */
 
 .modal {
@@ -347,12 +354,16 @@ body:not(.dark-mode) .toggle-fill::after {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    background-color: rgba(0,0,0,0.4);
     border-radius: 20px;
+    border: none;
+    box-shadow: 20px 20px 300px rgba(0, 0, 0, 0.2);
 }
-  
+
 .modal-content {
-    background-color: var(--pure-white);
+    background-color: var(--light-gray);
     padding: 30px;
 }
-  
+
+::backdrop{
+    background-color: rgba(0, 0, 0, .5);
+}

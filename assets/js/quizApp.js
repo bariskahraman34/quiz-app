@@ -26,6 +26,11 @@ function getSubject(e){
 }
 
 function getQuestions(subject){
+    document.querySelector('.subject-heading').innerHTML =
+    `
+    <img src="${subjectImg}"/> 
+    <h2>${subjectName}</h2>
+    `;
     if(subject === "html"){
         return getJSONFilePath(subject);
     }else if(subject === "css"){
@@ -62,27 +67,8 @@ function getRandomQuestions(allQuestions, numberOfQuestions) {
   }
 
 async function renderQuestions(){
-    if(document.querySelector('.remove-this-element')){
-        document.querySelector('.remove-this-element').remove();
-        let subjectHeading =
-        `
-        <div class="subject-heading">
-            <img src="${subjectImg}"/> 
-            <h2>${subjectName}</h2>
-        </div>
-        `
-        document.querySelector('.toggle-container').insertAdjacentHTML("beforebegin",subjectHeading);
-    }else{
-        document.querySelector('.subject-heading').remove();
-        let subjectHeading =
-        `
-        <div class="subject-heading">
-            <img src="${subjectImg}"/> 
-            <h2>${subjectName}</h2>
-        </div>
-        `
-        document.querySelector('.toggle-container').insertAdjacentHTML("beforebegin",subjectHeading);
-    }
+
+    
     for (const question of randomQuestionsArray[0].slice(currentQuestion - 1, currentQuestion)) {
         document.querySelector('.container-leftside').style.flexDirection = "row";
         containerRightSide.innerHTML = "";

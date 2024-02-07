@@ -64,7 +64,7 @@ async function createRandomQuestions(data){
 function getRandomQuestions(allQuestions, numberOfQuestions) {
     const shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5);
     return shuffledQuestions.slice(0, numberOfQuestions);
-  }
+}
 
 async function renderQuestions(){
 
@@ -138,8 +138,10 @@ function checkAnswer(question){
     saveBtn.addEventListener('click', function(){
         if (!saveBtnClicked){
             for(const option of optionBtns){
-                option.style.pointerEvents = "none";
                 if(option.classList.contains('selected')){
+                    for (const option of optionBtns) {
+                        option.style.pointerEvents = "none";
+                    }
                     if(option.id == question.correctAnswer){
                         option.innerHTML += `<img class="result-icon" src="assets/img/true-icon.svg" alt="">`
                         option.style.borderColor = "var(--green)";
@@ -156,7 +158,7 @@ function checkAnswer(question){
                         }
                     }
                 }else{
-                    if (document.querySelectorAll('.option-btn.selected').length != 1){
+                    if (document.querySelectorAll('.option-btn.selected').length == 0){
                         document.querySelector('.no-option-selected').style.display = "flex";
                         return;
                     }

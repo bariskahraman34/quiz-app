@@ -164,7 +164,11 @@ function checkAnswer(question){
                     }
                 }
             }
-            this.textContent = "Sonraki Soru";
+            if(currentQuestion == 10){
+                this.textContent = "Quizi Bitir";
+            }else{
+                this.textContent = "Sonraki Soru";
+            }
             this.classList.add('next');
             this.classList.remove('save-btn');
             saveBtnClicked = true;
@@ -177,8 +181,7 @@ function goNextQuestion(){
     const nextQuestionBtn = document.querySelector('.next');
     nextQuestionBtn.addEventListener('click',function(){
         if(currentQuestion == 10){
-            this.textContent = "Quizi Bitir"
-            this.addEventListener('click',finishQuiz)
+            return finishQuiz();
         }else{
             currentQuestion++;
             saveBtnClicked = false;

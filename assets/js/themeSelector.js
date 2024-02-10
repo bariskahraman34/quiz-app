@@ -3,10 +3,18 @@ const toggleDarkMode = document.querySelector('.toggle-fill');
 const sunIcon = document.querySelector('#sun');
 const moonIcon = document.querySelector('#moon');
 
+let userHasDarkMode = window.matchMedia('(prefers-color-scheme:dark)');
+
 let saveTheme = JSON.parse(localStorage.getItem('theme')) || [];
 
 function saveThemeToLocalStorage() {
     localStorage.setItem('theme', JSON.stringify(saveTheme));
+}
+
+if(userHasDarkMode){
+    body.classList.add('dark-mode');
+    sunIcon.src = "assets/img/dark-mode-sun.svg";
+    moonIcon.src = "assets/img/dark-mode-moon.svg";
 }
 
 toggleDarkMode.addEventListener('click', switchTheme);
